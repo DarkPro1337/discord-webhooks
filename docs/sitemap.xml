@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/structure/username/</loc>
+    <lastmod>2018-07-23T22:59:38+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/intro/json/</loc>
+    <lastmod>2018-07-23T21:48:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/structure/avatar_url/</loc>
+    <lastmod>2018-07-23T22:59:42+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</loc>
+    <lastmod>2018-07-23T22:17:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/intro/</loc>
+    <lastmod>2018-07-23T22:06:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/structure/</loc>
+    <lastmod>2018-07-23T22:58:42+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/</loc>
+    <lastmod>2018-07-23T20:12:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
