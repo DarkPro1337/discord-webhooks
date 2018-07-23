@@ -11,4 +11,4 @@ pre: "<b>1. </b>"
 
 Допустим, вы запустили стрим на своём Twitch канале, но самостоятельно делать анонс в свой Discord чат долго, но что если вам нужно отправить уведомление не только в Discord чат, но и в Twitter... а может быть ещё в Tumblr? Да, это займёт достаточно времени. Но это можно легко автоматизировать.
 
-![Таким образом выглядит менюшка вебхуков](/discord-webhooks/docs/intro/img/discord-webhook_menu.png?classes=shadow)
+![Таким образом выглядит менюшка вебхуков](/discord-webhooks/intro/img/discord-webhook_menu.png?classes=shadow)
