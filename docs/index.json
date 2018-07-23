@@ -1,0 +1,64 @@
+[
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/structure/username/",
+	"title": "username",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/intro/json/",
+	"title": "JSON",
+	"tags": [],
+	"description": "",
+	"content": " Если вы не знаете ничего о JSON, пожалуйста потратьте немного своего времени, чтобы изучить его структуру.\nЧто такое JSON? Аббревиатура JSON расшифровывается как:\n Java Script Object Notation  Не бойтесь. JSON прост в изучении и использовании! И это не язык программирования. JSON — это формат хранения данных, который легко читается и записывается, как людьми, так и роботами.\n\r key: value - это пара ключ-значение Ключ и значение разделяются двоеточием (:), без исключений. Множественные ключ-значение разделяются запятой (,), без исключений. Пробелы и переносы строки можно использовать пока они не являются частью ключа или значения. key - это только текст вставленный между двумя кавычками (\u0026quot; \u0026quot;). Но value бывает разных видов:  Строка - \u0026quot;текст\u0026quot;, \u0026quot;классные\\nштуки\u0026quot;. Номер - 42, -300, 6.62e-34. Объект - { \u0026quot;Имя\u0026quot;: \u0026quot;Джейсон\u0026quot;, \u0026quot;Любит\u0026quot;: [\u0026quot;Яблоки\u0026quot;, \u0026quot;Апельсины\u0026quot;] }. Массив - [\u0026quot;Яблоко\u0026quot;, \u0026quot;Банан\u0026quot;, \u0026quot;Апельсин\u0026quot;], [1, true, 3, \u0026quot;мяу\u0026quot;]. Логическое - true, false. Ноль - null.   О строковых значениях Строковые значения могут хранить в себе любые символы, какие вы укажите, но некоторые из них могут быть экранированы:\n Двойные кавычки - \\\u0026quot; Слэш - \\\\ Обратный слэш - \\/ (экранирование опционально) Новая строка - \\n (используйте это если, хотите перейти на новую строку в значении) Возврат каретки - \\r (возвращает на начало строки) Табуляция - \\t Пробел назад - \\b Новая страница - \\f Символ Юникода - \\uxxxx  Пример { \u0026quot;name\u0026quot;: \u0026quot;Pumpkin\u0026quot;, \u0026quot;age\u0026quot;: 7, \u0026quot;likes\u0026quot;: [ \u0026quot;patting\u0026quot;, \u0026quot;sleeping in a garden\u0026quot;, \u0026quot;salmon\u0026quot; ], \u0026quot;appearance\u0026quot;: \u0026quot;Orange Tabby\u0026quot;, \u0026quot;owner_name\u0026quot;: \u0026quot;Jane Doe\u0026quot;, \u0026quot;phone_number\u0026quot;: \u0026quot;+447712345678\u0026quot;, \u0026quot;address\u0026quot;: { \u0026quot;country\u0026quot;: \u0026quot;England\u0026quot;, \u0026quot;city\u0026quot;: \u0026quot;London\u0026quot;, \u0026quot;street\u0026quot;: \u0026quot;Crown Street\u0026quot;, \u0026quot;house\u0026quot;: 38, \u0026quot;notes\u0026quot;: null } }  Полезные ресурсы  Изучите X за Y минут, где X=json - быстрый туториал по JSON. JSON официальный сайт - который объясняет формат при помощи блок-схем.  "
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/structure/avatar_url/",
+	"title": "avatar_url",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/",
+	"title": "Discord Webhook",
+	"tags": [],
+	"description": "",
+	"content": " Структура Вебхуков Прежде чем использовать Вебхуки вы должны знать структуру. Все ниже перечисленные элементы необязательны, но вам всё равно придётся использовать content и embeds хотя бы раз. Это минимальное требование.\n username - заменяет имя вебхука avatar_url - заменяет аватар вебхука content - устанавливает текст выводимый вебхуком (до 2000 символов) embeds - массив вложенных объектов в сообщении. Это означает, что вы можете указать туда более одного объекта в одном сообщении  color - устанавливает цвет для полоски вложения. Указывайте цвет в десятичной системе цифр, а не шестнадцатеричной. Используйте SpyColor для этого. author - добавляет блок автора во вложение name - имя автора url - ссылка на автора. Если бы использован name превращается в гиперссылку icon_url - ссылка на иконку автора title - устанавливает заголовок вложения url - ссылка вложения. Если бы использован title превращается в гиперссылку description - текст описания fields - массив объекта field во вложении name - имя поля value - значение поля inline - если значение true, то поля будут отображаться на одной линии, но их может быть только 3 на одной линии, или 2 если был использован thumbnail thumbnail - добавляет миниатюрное изображение во вложение url - ссылка на изображение image - добавляет изображение во вложение url - ссылка на изображение footer - добавляет \u0026ldquo;подвал\u0026rdquo; (нижний блок) во вложение text - текст нижнего блока, не поддерживает Markdown icon_url - ссылка на иконку нижнего блока timestamp - отметка времени по стандарту ISO8601 (yyyy-mm-ddThh:mm:ss.msZ)   Пример Вебхука { \u0026quot;username\u0026quot;: \u0026quot;Вебхук\u0026quot;, \u0026quot;avatar_url\u0026quot;: \u0026quot;https://i.imgur.com/8gzrpIh.png\u0026quot;, \u0026quot;content\u0026quot;: \u0026quot;Текст сообщения. До 2000 символов.\u0026quot;, \u0026quot;embeds\u0026quot;: [ { \u0026quot;author\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;DOGE\u0026quot;, \u0026quot;url\u0026quot;: \u0026quot;https://www.reddit.com/r/doge/\u0026quot;, \u0026quot;icon_url\u0026quot;: \u0026quot;https://i.imgur.com/1PQ1yfi.png\u0026quot; }, \u0026quot;title\u0026quot;: \u0026quot;Заголовок\u0026quot;, \u0026quot;url\u0026quot;: \u0026quot;https://google.com/\u0026quot;, \u0026quot;description\u0026quot;: \u0026quot;Текст сообщения. Здесь можно использовать Markdown. *Курсив* **жирный** __подчёркнутый__ ~~зачёркнутый~~ [гиперссылка](https://google.com) `код`\u0026quot;, \u0026quot;color\u0026quot;: 15258703, \u0026quot;fields\u0026quot;: [ { \u0026quot;name\u0026quot;: \u0026quot;Текст\u0026quot;, \u0026quot;value\u0026quot;: \u0026quot;Ещё текста\u0026quot;, \u0026quot;inline\u0026quot;: true }, { \u0026quot;name\u0026quot;: \u0026quot;Нам нужно больше текста\u0026quot;, \u0026quot;value\u0026quot;: \u0026quot;Агась\u0026quot;, \u0026quot;inline\u0026quot;: true }, { \u0026quot;name\u0026quot;: \u0026quot;Используйте параметр `\\\u0026quot;inline\\\u0026quot;: true` , если вы хотите чтоб поля распалагались на одной линии.\u0026quot;, \u0026quot;value\u0026quot;: \u0026quot;Ладно...\u0026quot; }, { \u0026quot;name\u0026quot;: \u0026quot;Спасибо!\u0026quot;, \u0026quot;value\u0026quot;: \u0026quot;Не за что! :wink:\u0026quot; } ], \u0026quot;thumbnail\u0026quot;: { \u0026quot;url\u0026quot;: \u0026quot;https://i.imgur.com/2p68pbG.jpg\u0026quot; }, \u0026quot;image\u0026quot;: { \u0026quot;url\u0026quot;: \u0026quot;https://i.imgur.com/2p68pbG.jpg\u0026quot; }, \u0026quot;footer\u0026quot;: { \u0026quot;text\u0026quot;: \u0026quot;Вау! Как класно! :smirk:\u0026quot;, \u0026quot;icon_url\u0026quot;: \u0026quot;https://i.imgur.com/AAeBJBp.png\u0026quot; } } ] }  Как он выглядит "
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/intro/",
+	"title": "Введение",
+	"tags": [],
+	"description": "",
+	"content": " Что такое вебхук и зачем он нужен Каждый сервер в Discord обладает возможностью добавления вебхука. С помощью него можно получать сообщения, например с сервиса IFTTT или любых других. Сообщения вы будете именно получать, а не постоянно проверять их наличие, работать это будет по принципу: Вы сообщаете Discord следующее: \u0026ldquo;Если кто-то мне напишет, стукни сюда — (ссылка)\u0026ldquo;.\nДопустим, вы запустили стрим на своём Twitch канале, но самостоятельно делать анонс в свой Discord чат долго, но что если вам нужно отправить уведомление не только в Discord чат, но и в Twitter\u0026hellip; а может быть ещё в Tumblr? Да, это займёт достаточно времени. Но это можно легко автоматизировать.\n"
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/structure/",
+	"title": "Структура вебхуков Discord",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/",
+	"title": "Главная",
+	"tags": [],
+	"description": "",
+	"content": " Главная Содержание  Введение  JSON Структура Вебхуков  Интеграции с:  IFTTT IFTTT Platform  Использование с:  Postman HTTPie cURL  Примеры:  Twitch Spotify  Дополнительная информация  Discord Markdown Slack форматирование Ограничения полей   Ссылки  IFTTT Postman cURL HTTPie Zapier Integromat  "
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://darkpro1337.github.io/discord-webhooks/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
