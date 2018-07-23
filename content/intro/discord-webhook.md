@@ -88,4 +88,4 @@ weight: 10
 
 ## Как он выглядит
 
-![](/static/images/discord-webhook_example.png)
+![](/discord-webhooks/static/images/discord-webhook_example.png?classes=shadow)
