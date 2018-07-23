@@ -1,0 +1,15 @@
+baseURL = "https://darkpro1337.github.io/discord-webhooks/"
+languageCode = "en-us"
+title = "Discord Webhooks Guide"
+theme = "hugo-theme-learn"
+publishDir = "docs"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+author = "DarkPro1337"
+description = ""
+showVisitedLinks = true
+disableLanguageSwitchingButton = true
+themeVariant = "green"
