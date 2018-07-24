@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
-    <title>Главная :: Discord Webhooks Guide</title>
+    <title>author :: Discord Webhooks Guide</title>
     
     
     <link href="/discord-webhooks/css/nucleus.css?1532454163" rel="stylesheet">
@@ -38,7 +38,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/discord-webhooks/">
+  <body class="" data-url="/discord-webhooks/structure/embeds/author/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -155,7 +155,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/" title="Структура вебхуков Discord" class="dd-item 
-        
+        parent
         
         
         ">
@@ -241,7 +241,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/embeds/" title="embeds" class="dd-item 
-        
+        parent
         
         
         ">
@@ -286,7 +286,7 @@
  
   
     
-      <li data-nav-id="/discord-webhooks/structure/embeds/author/" title="author" class="dd-item ">
+      <li data-nav-id="/discord-webhooks/structure/embeds/author/" title="author" class="dd-item active">
         <a href="/discord-webhooks/structure/embeds/author/">
         author
         <i class="fa fa-check read-icon"></i>
@@ -538,73 +538,97 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/discord-webhooks/'>Главная</a> > <a href='/discord-webhooks/structure/'>Структура вебхуков Discord</a> > <a href='/discord-webhooks/structure/embeds/'>embeds</a> > author
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>author</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
 
- 
-
-
-<h1 id="главная">Главная</h1>
-
-<p><img src="./img/discord-webhooks_header_small.png?classes=shadow&amp;width=50pc" alt="" /></p>
-
-<h2 id="содержание">Содержание</h2>
+<p>Добавляет блок автора во вложение. <code>author</code> это объект который включает в себя три значения:</p>
 
 <ul>
-<li><a href="intro">Введение</a>
-
-<ul>
-<li><a href="intro/json">JSON</a></li>
-<li><a href="intro/discord-webhook">Структура Вебхуков</a></li>
-</ul></li>
-<li>Интеграции с:
-
-<ul>
-<li><a href="services/ifttt.md">IFTTT</a></li>
-<li><a href="services/ifttt-platform.md">IFTTT Platform</a></li>
-</ul></li>
-<li>Использование с:
-
-<ul>
-<li><a href="tools/postman.md">Postman</a></li>
-<li><a href="tools/httpie.md">HTTPie</a></li>
-<li><a href="tools/curl.md">cURL</a></li>
-</ul></li>
-<li>Примеры:
-
-<ul>
-<li><a href="examples/twitch.md">Twitch</a></li>
-<li><a href="examples/spotify.md">Spotify</a></li>
-</ul></li>
-<li>Дополнительная информация
-
-<ul>
-<li><a href="other/discord-markdown.md">Discord Markdown</a></li>
-<li><a href="other/slack-formatting.md">Slack форматирование</a></li>
-<li><a href="other/field-limits.md">Ограничения полей</a></li>
-</ul></li>
+<li><code>name</code> - устанавливает имя.</li>
+<li><code>url</code> - устанавливает ссылку. Требует значения <code>name</code>. Если используется, преобразует <code>name</code> в гиперссылку.</li>
+<li><code>icon_url</code> - устанавливает аватар. Требует значения <code>name</code>.</li>
 </ul>
 
-<h2 id="ссылки">Ссылки</h2>
+<p>Пример:</p>
 
-<ul>
-<li><a href="https://ifttt.com/">IFTTT</a></li>
-<li><a href="https://www.getpostman.com/">Postman</a></li>
-<li><a href="https://curl.haxx.se/">cURL</a></li>
-<li><a href="https://httpie.org/">HTTPie</a></li>
-<li><a href="https://zapier.com/">Zapier</a></li>
-<li><a href="https://www.integromat.com/">Integromat</a></li>
-</ul>
+<pre><code class="language-json">{
+  &quot;embeds&quot;: [{
+    &quot;author&quot;: {
+      &quot;name&quot;: &quot;Доставщик пиццы 🍕&quot;,
+      &quot;url&quot;: &quot;https://www.reddit.com/r/Pizza/&quot;,
+      &quot;icon_url&quot;: &quot;https://i.imgur.com/1aErQKa.png&quot;
+    },
+    &quot;description&quot;: &quot;Ваша пицца готова!\n:timer:ETA: 5 минут.&quot;
+  }]
+}
+</code></pre>
+
+<p><img src="../img/author.png" alt="" /></p>
+
+
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -687,6 +711,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -701,6 +726,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -750,6 +778,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -762,6 +791,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -779,21 +811,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -810,6 +827,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -918,6 +938,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -963,8 +999,10 @@
 
 
         
+            <a class="nav nav-prev" href="/discord-webhooks/structure/embeds/color/" title="color"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/discord-webhooks/intro/" title="Введение" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/discord-webhooks/structure/embeds/title/" title="title" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

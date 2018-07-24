@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
-    <title>Главная :: Discord Webhooks Guide</title>
+    <title>timestamp :: Discord Webhooks Guide</title>
     
     
     <link href="/discord-webhooks/css/nucleus.css?1532454163" rel="stylesheet">
@@ -38,7 +38,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/discord-webhooks/">
+  <body class="" data-url="/discord-webhooks/structure/embeds/timestamp/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -155,7 +155,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/" title="Структура вебхуков Discord" class="dd-item 
-        
+        parent
         
         
         ">
@@ -241,7 +241,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/embeds/" title="embeds" class="dd-item 
-        
+        parent
         
         
         ">
@@ -438,7 +438,7 @@
  
   
     
-      <li data-nav-id="/discord-webhooks/structure/embeds/timestamp/" title="timestamp" class="dd-item ">
+      <li data-nav-id="/discord-webhooks/structure/embeds/timestamp/" title="timestamp" class="dd-item active">
         <a href="/discord-webhooks/structure/embeds/timestamp/">
         timestamp
         <i class="fa fa-check read-icon"></i>
@@ -538,73 +538,91 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/discord-webhooks/'>Главная</a> > <a href='/discord-webhooks/structure/'>Структура вебхуков Discord</a> > <a href='/discord-webhooks/structure/embeds/'>embeds</a> > timestamp
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>timestamp</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
 
- 
+<p>Позволяет вам добовлять <code>timestamp</code> во вложение к сообщению. Время хранится как строка в следующем фомате: <code>&quot;YYYY-MM-DDTHH:MM:SS.MSSZ&quot;</code> . Если <code>footer</code> был использован то он будет разделён маркером ( • ). Так же, это особое поле, поскольку оно может выводить разное время основываясь на устройстве пользователя.</p>
+
+<div class="notices note" ><p><code>timestamp</code> это не просто текст. Это преобразованный UTC формат даты и времени. Он отображает разное время из-за часовых поясов. Посмотрите пример ниже: Я поставил 12pm но он показывает 3pm из-за часового пояса UTC+3.</p>
+</div>
 
 
-<h1 id="главная">Главная</h1>
+<p>Пример:</p>
 
-<p><img src="./img/discord-webhooks_header_small.png?classes=shadow&amp;width=50pc" alt="" /></p>
+<pre><code class="language-json">{
+  &quot;embeds&quot;: [{
+    &quot;description&quot;: &quot;Путешествие во времени!&quot;,
+    &quot;timestamp&quot;: &quot;2015-12-31T12:00:00.000Z&quot;
+  }]
+}
+</code></pre>
 
-<h2 id="содержание">Содержание</h2>
+<p><img src="../img/timestamp.png" alt="" /></p>
 
-<ul>
-<li><a href="intro">Введение</a>
 
-<ul>
-<li><a href="intro/json">JSON</a></li>
-<li><a href="intro/discord-webhook">Структура Вебхуков</a></li>
-</ul></li>
-<li>Интеграции с:
-
-<ul>
-<li><a href="services/ifttt.md">IFTTT</a></li>
-<li><a href="services/ifttt-platform.md">IFTTT Platform</a></li>
-</ul></li>
-<li>Использование с:
-
-<ul>
-<li><a href="tools/postman.md">Postman</a></li>
-<li><a href="tools/httpie.md">HTTPie</a></li>
-<li><a href="tools/curl.md">cURL</a></li>
-</ul></li>
-<li>Примеры:
-
-<ul>
-<li><a href="examples/twitch.md">Twitch</a></li>
-<li><a href="examples/spotify.md">Spotify</a></li>
-</ul></li>
-<li>Дополнительная информация
-
-<ul>
-<li><a href="other/discord-markdown.md">Discord Markdown</a></li>
-<li><a href="other/slack-formatting.md">Slack форматирование</a></li>
-<li><a href="other/field-limits.md">Ограничения полей</a></li>
-</ul></li>
-</ul>
-
-<h2 id="ссылки">Ссылки</h2>
-
-<ul>
-<li><a href="https://ifttt.com/">IFTTT</a></li>
-<li><a href="https://www.getpostman.com/">Postman</a></li>
-<li><a href="https://curl.haxx.se/">cURL</a></li>
-<li><a href="https://httpie.org/">HTTPie</a></li>
-<li><a href="https://zapier.com/">Zapier</a></li>
-<li><a href="https://www.integromat.com/">Integromat</a></li>
-</ul>
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -687,6 +705,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -701,6 +720,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -750,6 +772,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -763,21 +786,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -918,6 +928,42 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
             
         
                     
@@ -937,22 +983,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -963,8 +993,10 @@
 
 
         
+            <a class="nav nav-prev" href="/discord-webhooks/structure/embeds/footer/" title="footer"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/discord-webhooks/intro/" title="Введение" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/discord-webhooks/structure/tts/" title="tts" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

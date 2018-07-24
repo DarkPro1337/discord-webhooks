@@ -17,7 +17,9 @@
       <pubDate>Mon, 23 Jul 2018 22:59:38 +0300</pubDate>
       
       <guid>https://darkpro1337.github.io/discord-webhooks/structure/username/</guid>
-      <description></description>
+      <description>Заменяет название вебхука. Полезно, если вы используете одну и ту же ссылку на вебхук.
+Пример:
+{ &amp;quot;username&amp;quot;: &amp;quot;Kooh Niatpac&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Привет. Я вебхук, моё оригинальное имя Captain Hook!&amp;quot; }  </description>
     </item>
     
     <item>
@@ -26,7 +28,42 @@
       <pubDate>Mon, 23 Jul 2018 22:59:42 +0300</pubDate>
       
       <guid>https://darkpro1337.github.io/discord-webhooks/structure/avatar_url/</guid>
-      <description></description>
+      <description>Заменяет аватарку вебхука. Полезно, если вы используете одну и ту же ссылку на вебхук.
+Пример:
+{ &amp;quot;avatar_url&amp;quot;: &amp;quot;https://i.imgur.com/k1ibITc.jpg&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Я Офицер KD6-3.7&amp;quot; }  </description>
+    </item>
+    
+    <item>
+      <title>content</title>
+      <link>https://darkpro1337.github.io/discord-webhooks/structure/content/</link>
+      <pubDate>Tue, 24 Jul 2018 19:19:30 +0300</pubDate>
+      
+      <guid>https://darkpro1337.github.io/discord-webhooks/structure/content/</guid>
+      <description>Устанавливает текст который будет выводится вебхуком.
+Пример:
+{ &amp;quot;content&amp;quot;: &amp;quot;(╯°□°）╯︵ ┻━┻&amp;quot; }  </description>
+    </item>
+    
+    <item>
+      <title>tts</title>
+      <link>https://darkpro1337.github.io/discord-webhooks/structure/tts/</link>
+      <pubDate>Tue, 24 Jul 2018 20:30:55 +0300</pubDate>
+      
+      <guid>https://darkpro1337.github.io/discord-webhooks/structure/tts/</guid>
+      <description>Включает синтезатор речи для текущего сообщения, поэтому каждый у кого включен синтезатор речи услышат это сообщение.
+Пример:
+{ &amp;quot;content&amp;quot;: &amp;quot;Привет&amp;quot;, &amp;quot;tts&amp;quot;: true }  </description>
+    </item>
+    
+    <item>
+      <title>file</title>
+      <link>https://darkpro1337.github.io/discord-webhooks/structure/file/</link>
+      <pubDate>Tue, 24 Jul 2018 20:30:59 +0300</pubDate>
+      
+      <guid>https://darkpro1337.github.io/discord-webhooks/structure/file/</guid>
+      <description> Отправление файлов через вебхук совместима только с заголовком Content-Type: multipart/form-data. Вы можете отправить до 10 файлов в одном запросе. Заметьте, что вы не можете отправлять вложенные параметры используя форму типа embeds. Вместо этого вложите для JSON сообщения параметр payload_json.
+Не забудьте указать уникальные имена для названий изображений. В противном случае будет отправлен только один файл с одинаковыми именами.
+Пример </description>
     </item>
     
   </channel>

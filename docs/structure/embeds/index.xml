@@ -1,92 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Главная on Discord Webhooks Guide</title>
-    <link>https://darkpro1337.github.io/discord-webhooks/</link>
-    <description>Recent content in Главная on Discord Webhooks Guide</description>
+    <title>embeds on Discord Webhooks Guide</title>
+    <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/</link>
+    <description>Recent content in embeds on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jul 2018 20:12:31 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jul 2018 19:26:57 +0300</lastBuildDate>
     
-	<atom:link href="https://darkpro1337.github.io/discord-webhooks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://darkpro1337.github.io/discord-webhooks/structure/embeds/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>username</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/username/</link>
-      <pubDate>Mon, 23 Jul 2018 22:59:38 +0300</pubDate>
-      
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/username/</guid>
-      <description>Заменяет название вебхука. Полезно, если вы используете одну и ту же ссылку на вебхук.
-Пример:
-{ &amp;quot;username&amp;quot;: &amp;quot;Kooh Niatpac&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Привет. Я вебхук, моё оригинальное имя Captain Hook!&amp;quot; }  </description>
-    </item>
-    
-    <item>
-      <title>JSON</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/intro/json/</link>
-      <pubDate>Mon, 23 Jul 2018 21:48:52 +0300</pubDate>
-      
-      <guid>https://darkpro1337.github.io/discord-webhooks/intro/json/</guid>
-      <description>Если вы не знаете ничего о JSON, пожалуйста потратьте немного своего времени, чтобы изучить его структуру.
-Что такое JSON? Аббревиатура JSON расшифровывается как:
- Java Script Object Notation  Не бойтесь. JSON прост в изучении и использовании! И это не язык программирования. JSON — это формат хранения данных, который легко читается и записывается, как людьми, так и роботами.
- key: value - это пара ключ-значение Ключ и значение разделяются двоеточием (:), без исключений.</description>
-    </item>
-    
-    <item>
-      <title>avatar_url</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/avatar_url/</link>
-      <pubDate>Mon, 23 Jul 2018 22:59:42 +0300</pubDate>
-      
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/avatar_url/</guid>
-      <description>Заменяет аватарку вебхука. Полезно, если вы используете одну и ту же ссылку на вебхук.
-Пример:
-{ &amp;quot;avatar_url&amp;quot;: &amp;quot;https://i.imgur.com/k1ibITc.jpg&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Я Офицер KD6-3.7&amp;quot; }  </description>
-    </item>
-    
-    <item>
-      <title>Discord Webhook</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</link>
-      <pubDate>Mon, 23 Jul 2018 22:17:15 +0300</pubDate>
-      
-      <guid>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</guid>
-      <description>Структура Вебхуков Прежде чем использовать Вебхуки вы должны знать структуру. Все ниже перечисленные элементы необязательны, но вам всё равно придётся использовать content и embeds хотя бы раз. Это минимальное требование.
- username - заменяет имя вебхука avatar_url - заменяет аватар вебхука content - устанавливает текст выводимый вебхуком (до 2000 символов) embeds - массив вложенных объектов в сообщении. Это означает, что вы можете указать туда более одного объекта в одном сообщении  color - устанавливает цвет для полоски вложения.</description>
-    </item>
-    
-    <item>
-      <title>content</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/content/</link>
-      <pubDate>Tue, 24 Jul 2018 19:19:30 +0300</pubDate>
-      
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/content/</guid>
-      <description>Устанавливает текст который будет выводится вебхуком.
-Пример:
-{ &amp;quot;content&amp;quot;: &amp;quot;(╯°□°）╯︵ ┻━┻&amp;quot; }  </description>
-    </item>
-    
-    <item>
-      <title>tts</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/tts/</link>
-      <pubDate>Tue, 24 Jul 2018 20:30:55 +0300</pubDate>
-      
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/tts/</guid>
-      <description>Включает синтезатор речи для текущего сообщения, поэтому каждый у кого включен синтезатор речи услышат это сообщение.
-Пример:
-{ &amp;quot;content&amp;quot;: &amp;quot;Привет&amp;quot;, &amp;quot;tts&amp;quot;: true }  </description>
-    </item>
-    
-    <item>
-      <title>file</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/file/</link>
-      <pubDate>Tue, 24 Jul 2018 20:30:59 +0300</pubDate>
-      
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/file/</guid>
-      <description> Отправление файлов через вебхук совместима только с заголовком Content-Type: multipart/form-data. Вы можете отправить до 10 файлов в одном запросе. Заметьте, что вы не можете отправлять вложенные параметры используя форму типа embeds. Вместо этого вложите для JSON сообщения параметр payload_json.
-Не забудьте указать уникальные имена для названий изображений. В противном случае будет отправлен только один файл с одинаковыми именами.
-Пример </description>
-    </item>
     
     <item>
       <title>color</title>

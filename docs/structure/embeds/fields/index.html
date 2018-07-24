@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
-    <title>Главная :: Discord Webhooks Guide</title>
+    <title>fields :: Discord Webhooks Guide</title>
     
     
     <link href="/discord-webhooks/css/nucleus.css?1532454163" rel="stylesheet">
@@ -38,7 +38,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/discord-webhooks/">
+  <body class="" data-url="/discord-webhooks/structure/embeds/fields/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -155,7 +155,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/" title="Структура вебхуков Discord" class="dd-item 
-        
+        parent
         
         
         ">
@@ -241,7 +241,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/embeds/" title="embeds" class="dd-item 
-        
+        parent
         
         
         ">
@@ -362,7 +362,7 @@
  
   
     
-      <li data-nav-id="/discord-webhooks/structure/embeds/fields/" title="fields" class="dd-item ">
+      <li data-nav-id="/discord-webhooks/structure/embeds/fields/" title="fields" class="dd-item active">
         <a href="/discord-webhooks/structure/embeds/fields/">
         fields
         <i class="fa fa-check read-icon"></i>
@@ -538,73 +538,114 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/discord-webhooks/'>Главная</a> > <a href='/discord-webhooks/structure/'>Структура вебхуков Discord</a> > <a href='/discord-webhooks/structure/embeds/'>embeds</a> > fields
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>fields</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
 
- 
-
-
-<h1 id="главная">Главная</h1>
-
-<p><img src="./img/discord-webhooks_header_small.png?classes=shadow&amp;width=50pc" alt="" /></p>
-
-<h2 id="содержание">Содержание</h2>
+<p>Позволяет использовать вместе блоки <code>title</code> + <code>description</code> во вложении к сообщению. <code>fields</code> это массив объекта <code>field</code>.<br />
+Каждый объект будет включать три значения:</p>
 
 <ul>
-<li><a href="intro">Введение</a>
-
-<ul>
-<li><a href="intro/json">JSON</a></li>
-<li><a href="intro/discord-webhook">Структура Вебхуков</a></li>
-</ul></li>
-<li>Интеграции с:
-
-<ul>
-<li><a href="services/ifttt.md">IFTTT</a></li>
-<li><a href="services/ifttt-platform.md">IFTTT Platform</a></li>
-</ul></li>
-<li>Использование с:
-
-<ul>
-<li><a href="tools/postman.md">Postman</a></li>
-<li><a href="tools/httpie.md">HTTPie</a></li>
-<li><a href="tools/curl.md">cURL</a></li>
-</ul></li>
-<li>Примеры:
-
-<ul>
-<li><a href="examples/twitch.md">Twitch</a></li>
-<li><a href="examples/spotify.md">Spotify</a></li>
-</ul></li>
-<li>Дополнительная информация
-
-<ul>
-<li><a href="other/discord-markdown.md">Discord Markdown</a></li>
-<li><a href="other/slack-formatting.md">Slack форматирование</a></li>
-<li><a href="other/field-limits.md">Ограничения полей</a></li>
-</ul></li>
+<li><code>name</code> - устанавливает имя для объекта поля. Обязателен;</li>
+<li><code>value</code> - устанавливает описание для объекта поля.  Обязателен;</li>
+<li><code>inline</code> - при <code>true</code>  устанавливает поля в одну и ту же линию, <strong>но</strong> если у вас есть больше 3 объектов с включенным <code>inline</code> или просто очень длинные, то вы получите 3 строки с полями в каждом из них, или с 2 полями если вы используете объект <code>thumbnail</code> . По упомолчанию равен <code>false</code> . Опционален.</li>
 </ul>
 
-<h2 id="ссылки">Ссылки</h2>
+<div class="notices info" ><p>Вы можете использовать до 25 полей в одном и том же вложении. <code>name</code> и <code>value</code> поддерживают Discord Markdown.</p>
+</div>
 
-<ul>
-<li><a href="https://ifttt.com/">IFTTT</a></li>
-<li><a href="https://www.getpostman.com/">Postman</a></li>
-<li><a href="https://curl.haxx.se/">cURL</a></li>
-<li><a href="https://httpie.org/">HTTPie</a></li>
-<li><a href="https://zapier.com/">Zapier</a></li>
-<li><a href="https://www.integromat.com/">Integromat</a></li>
-</ul>
+
+<pre><code class="language-json">{
+  &quot;embeds&quot;: [{
+    &quot;fields&quot;: [
+      {
+        &quot;name&quot;: &quot;Кошка&quot;,
+        &quot;value&quot;: &quot;Привет! :wave:&quot;,
+        &quot;inline&quot;: true
+      },
+      {
+        &quot;name&quot;: &quot;Собака&quot;,
+        &quot;value&quot;: &quot;Здравствуй!&quot;,
+        &quot;inline&quot;: true
+      },
+      {
+        &quot;name&quot;: &quot;Кошка&quot;,
+        &quot;value&quot;: &quot;хочешь поиграть? заходи ко мне в голосовой канал!&quot;
+      },
+      {
+        &quot;name&quot;: &quot;Собака&quot;,
+        &quot;value&quot;: &quot;yay! :grin:&quot;
+      }
+    ]
+  }]
+}
+</code></pre>
+
+<p><img src="../img/fields.png" alt="" /></p>
+
+
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -687,6 +728,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -701,6 +743,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -750,6 +795,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -763,21 +809,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -859,6 +892,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -963,8 +1016,10 @@
 
 
         
+            <a class="nav nav-prev" href="/discord-webhooks/structure/embeds/description/" title="description"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/discord-webhooks/intro/" title="Введение" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/discord-webhooks/structure/embeds/image/" title="image" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
