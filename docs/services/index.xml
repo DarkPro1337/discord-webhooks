@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Интеграция с on Discord Webhooks Guide</title>
-    <link>http://localhost:1313/services/</link>
+    <link>https://darkpro1337.github.io/discord-webhooks/services/</link>
     <description>Recent content in Интеграция с on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jul 2018 00:00:54 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://darkpro1337.github.io/discord-webhooks/services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IFTTT</title>
-      <link>http://localhost:1313/services/ifttt/</link>
+      <link>https://darkpro1337.github.io/discord-webhooks/services/ifttt/</link>
       <pubDate>Wed, 25 Jul 2018 00:10:33 +0300</pubDate>
       
-      <guid>http://localhost:1313/services/ifttt/</guid>
+      <guid>https://darkpro1337.github.io/discord-webhooks/services/ifttt/</guid>
       <description>IFTTT — это сервис позволяющий соединять сервисы между собой. Он поддерживает вебхуки, поэтому мы можем использовать его с Discord.
 Аккаунт на IFTTT Зайдите на IFTTT и создайте там свой аккаунт (если у вас его нет)
 Вебхуки в Discord  Зайдите в Настройки сервера → Вебхуки → Создать вебхук Укажите имя, установите аватар и канал в который вебхук будет отправлять сообщения. Скопируйте URL Вебхука. Не отправляйте никому эту ссылку! Это очень опасно!</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>IFTTT Platform</title>
-      <link>http://localhost:1313/services/ifttt-platform/</link>
+      <link>https://darkpro1337.github.io/discord-webhooks/services/ifttt-platform/</link>
       <pubDate>Wed, 25 Jul 2018 00:13:07 +0300</pubDate>
       
-      <guid>http://localhost:1313/services/ifttt-platform/</guid>
+      <guid>https://darkpro1337.github.io/discord-webhooks/services/ifttt-platform/</guid>
       <description> 🚧 Work in progress 🚧 </description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Примеры on Discord Webhooks Guide</title>
-    <link>http://localhost:1313/examples/</link>
+    <link>https://darkpro1337.github.io/discord-webhooks/examples/</link>
     <description>Recent content in Примеры on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jul 2018 00:04:53 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/examples/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://darkpro1337.github.io/discord-webhooks/examples/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Twitch</title>
-      <link>http://localhost:1313/examples/twitch/</link>
+      <link>https://darkpro1337.github.io/discord-webhooks/examples/twitch/</link>
       <pubDate>Wed, 25 Jul 2018 00:33:41 +0300</pubDate>
       
-      <guid>http://localhost:1313/examples/twitch/</guid>
+      <guid>https://darkpro1337.github.io/discord-webhooks/examples/twitch/</guid>
       <description>Обычная версия if Stream going live for X then Make a web request { &amp;quot;embeds&amp;quot;: [{ &amp;quot;color&amp;quot;: 6570405, &amp;quot;author&amp;quot;:{ &amp;quot;name&amp;quot;:&amp;quot;{{ChannelName}}&amp;quot;, &amp;quot;url&amp;quot;:&amp;quot;{{ChannelUrl}}&amp;quot; }, &amp;quot;description&amp;quot;: &amp;quot;**is now streaming on Twitch**&amp;quot;, &amp;quot;fields&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;:video_game: Game&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{Game}}&amp;quot;, &amp;quot;inline&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;:eye: Viewers&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{CurrentViewers}}&amp;quot;, &amp;quot;inline&amp;quot;: true } ], &amp;quot;image&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;{{StreamPreview}}&amp;quot; }, &amp;quot;footer&amp;quot;: { &amp;quot;text&amp;quot;: &amp;quot;http://twitch.tv&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://d1qb2nb5cznatu.cloudfront.net/startups/i/114142-19c0993bf69c468f1350fd422bfad6b2-medium_jpg.jpg?buster=1410211530&amp;quot; } }] }  Улучшенная версия if Stream going live for X then Make a web request В 8-ой и 21-ой строках вам нужно будет заменить текст URL AVATAR на ссылку со своим аватаром.</description>
     </item>
     
     <item>
       <title>Spotify</title>
-      <link>http://localhost:1313/examples/spotify/</link>
+      <link>https://darkpro1337.github.io/discord-webhooks/examples/spotify/</link>
       <pubDate>Wed, 25 Jul 2018 00:33:47 +0300</pubDate>
       
-      <guid>http://localhost:1313/examples/spotify/</guid>
+      <guid>https://darkpro1337.github.io/discord-webhooks/examples/spotify/</guid>
       <description> if New saved track then Make a web request { &amp;quot;embeds&amp;quot;: [{ &amp;quot;color&amp;quot;: 2021216, &amp;quot;title&amp;quot;: &amp;quot;New song added!&amp;quot;, &amp;quot;thumbnail&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;{{AlbumCoverURL}}&amp;quot; }, &amp;quot;fields&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;Track&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;[{{TrackName}}]({{TrackURL}})&amp;quot;, &amp;quot;inline&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;Artist&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{ArtistName}}&amp;quot;, &amp;quot;inline&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;Album&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{AlbumName}}&amp;quot;, &amp;quot;inline&amp;quot;: true } ], &amp;quot;footer&amp;quot;: { &amp;quot;text&amp;quot;: &amp;quot;Added {{SavedAt}}&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/200px-Spotify_logo_without_text.svg.png&amp;quot; } }] }  </description>
     </item>
     
