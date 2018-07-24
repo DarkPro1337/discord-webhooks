@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>embeds on Discord Webhooks Guide</title>
-    <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/</link>
+    <link>http://localhost:1313/structure/embeds/</link>
     <description>Recent content in embeds on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Jul 2018 19:26:57 +0300</lastBuildDate>
     
-	<atom:link href="https://darkpro1337.github.io/discord-webhooks/structure/embeds/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/structure/embeds/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>color</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/color/</link>
+      <link>http://localhost:1313/structure/embeds/color/</link>
       <pubDate>Tue, 24 Jul 2018 19:31:27 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/color/</guid>
+      <guid>http://localhost:1313/structure/embeds/color/</guid>
       <description>Устанавливает цвет для полоски вложения. По упомолчанию значение равняется 0 (прозрачный). Цвет устанавливается номером, вместо HEX-кода цвета, поэтому вам нужно конвертировать код цвета из шестнадцатеричной в десятичную систему счисления. Цвет может быть указан как номер 32768 или как строковое значение &amp;quot;14177041&amp;quot;.
 Я рекомендую использовать SpyColor для выбора цвета, он показывает десятичное значение.
 Пример:
@@ -25,10 +25,10 @@
     
     <item>
       <title>author</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/author/</link>
+      <link>http://localhost:1313/structure/embeds/author/</link>
       <pubDate>Tue, 24 Jul 2018 19:38:49 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/author/</guid>
+      <guid>http://localhost:1313/structure/embeds/author/</guid>
       <description>Добавляет блок автора во вложение. author это объект который включает в себя три значения:
  name - устанавливает имя. url - устанавливает ссылку. Требует значения name. Если используется, преобразует name в гиперссылку. icon_url - устанавливает аватар. Требует значения name.  Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;author&amp;quot;: { &amp;quot;name&amp;quot;: &amp;quot;Доставщик пиццы 🍕&amp;quot;, &amp;quot;url&amp;quot;: &amp;quot;https://www.reddit.com/r/Pizza/&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://i.imgur.com/1aErQKa.png&amp;quot; }, &amp;quot;description&amp;quot;: &amp;quot;Ваша пицца готова!\n:timer:ETA: 5 минут.&amp;quot; }] }  </description>
@@ -36,10 +36,10 @@
     
     <item>
       <title>title</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/title/</link>
+      <link>http://localhost:1313/structure/embeds/title/</link>
       <pubDate>Tue, 24 Jul 2018 19:51:44 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/title/</guid>
+      <guid>http://localhost:1313/structure/embeds/title/</guid>
       <description>Устанавливает заголовок вложения в сообщении.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;title&amp;quot;: &amp;quot;Мяу!&amp;quot; }] }  </description>
@@ -47,20 +47,20 @@
     
     <item>
       <title>url</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/url/</link>
+      <link>http://localhost:1313/structure/embeds/url/</link>
       <pubDate>Tue, 24 Jul 2018 19:55:48 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/url/</guid>
+      <guid>http://localhost:1313/structure/embeds/url/</guid>
       <description>Устанавливает ссылку в заголовок вложения в сообщении. Требует переменную title и превращает её в гиперссылку.
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;title&amp;quot;: &amp;quot;Google it!&amp;quot;, &amp;quot;url&amp;quot;: &amp;quot;https://google.com&amp;quot; }] }  </description>
     </item>
     
     <item>
       <title>description</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/description/</link>
+      <link>http://localhost:1313/structure/embeds/description/</link>
       <pubDate>Tue, 24 Jul 2018 19:58:36 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/description/</guid>
+      <guid>http://localhost:1313/structure/embeds/description/</guid>
       <description>Устанавливает описание вложения в сообщении.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;description&amp;quot;: &amp;quot;*Привет!* **Вау!!** Здесь я могу __использовать__ [гиперссылки](https://discordapp.com).&amp;quot; }] }  </description>
@@ -68,10 +68,10 @@
     
     <item>
       <title>fields</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/fields/</link>
+      <link>http://localhost:1313/structure/embeds/fields/</link>
       <pubDate>Tue, 24 Jul 2018 20:02:32 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/fields/</guid>
+      <guid>http://localhost:1313/structure/embeds/fields/</guid>
       <description>Позволяет использовать вместе блоки title + description во вложении к сообщению. fields это массив объекта field.
 Каждый объект будет включать три значения:
  name - устанавливает имя для объекта поля. Обязателен; value - устанавливает описание для объекта поля. Обязателен; inline - при true устанавливает поля в одну и ту же линию, но если у вас есть больше 3 объектов с включенным inline или просто очень длинные, то вы получите 3 строки с полями в каждом из них, или с 2 полями если вы используете объект thumbnail .</description>
@@ -79,10 +79,10 @@
     
     <item>
       <title>image</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/image/</link>
+      <link>http://localhost:1313/structure/embeds/image/</link>
       <pubDate>Tue, 24 Jul 2018 20:08:41 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/image/</guid>
+      <guid>http://localhost:1313/structure/embeds/image/</guid>
       <description>Позволяет вам использовать изображение во вложении к сообщению. Вы можете установить только ссылку на изображение. Вы не можете указать ширину/высоту изображения.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;image&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;https://i.imgur.com/2p68pbG.jpg&amp;quot; } }] }  </description>
@@ -90,10 +90,10 @@
     
     <item>
       <title>thumbnail</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/thumbnail/</link>
+      <link>http://localhost:1313/structure/embeds/thumbnail/</link>
       <pubDate>Tue, 24 Jul 2018 20:15:13 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/thumbnail/</guid>
+      <guid>http://localhost:1313/structure/embeds/thumbnail/</guid>
       <description>Позволяет вам использовать миниатюрное изображение во вложении к сообщению. Вы можете установить только ссылку на изображение. Вы не можете указать ширину/высоту изображения.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;thumbnail&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;https://i.imgur.com/2p68pbG.jpg&amp;quot; } }] }  </description>
@@ -101,10 +101,10 @@
     
     <item>
       <title>footer</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/footer/</link>
+      <link>http://localhost:1313/structure/embeds/footer/</link>
       <pubDate>Tue, 24 Jul 2018 20:15:30 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/footer/</guid>
+      <guid>http://localhost:1313/structure/embeds/footer/</guid>
       <description>Позволяет вам добавить &amp;ldquo;подвал&amp;rdquo; во вложение сообщения. footer это объект который включает два значения:
  text - устанавливает имя для автора объекта. Markdown здесь не работает! icon_url - устанавливает иконку для автора объекта. Требует значение text.  Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;footer&amp;quot;: { &amp;quot;text&amp;quot;: &amp;quot;wow! *such markdown* :smirk:&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://i.imgur.com/1PQ1yfi.png&amp;quot; }, &amp;quot;description&amp;quot;: &amp;quot;Ваша пицца готова!\n:timer:ETA: 10 минут.&amp;quot; }] }  </description>
@@ -112,10 +112,10 @@
     
     <item>
       <title>timestamp</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/timestamp/</link>
+      <link>http://localhost:1313/structure/embeds/timestamp/</link>
       <pubDate>Tue, 24 Jul 2018 20:15:50 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/timestamp/</guid>
+      <guid>http://localhost:1313/structure/embeds/timestamp/</guid>
       <description>Позволяет вам добовлять timestamp во вложение к сообщению. Время хранится как строка в следующем фомате: &amp;quot;YYYY-MM-DDTHH:MM:SS.MSSZ&amp;quot; . Если footer был использован то он будет разделён маркером ( • ). Так же, это особое поле, поскольку оно может выводить разное время основываясь на устройстве пользователя.
 timestamp это не просто текст. Это преобразованный UTC формат даты и времени. Он отображает разное время из-за часовых поясов. Посмотрите пример ниже: Я поставил 12pm но он показывает 3pm из-за часового пояса UTC+3.</description>
     </item>
