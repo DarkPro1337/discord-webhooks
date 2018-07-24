@@ -13,3 +13,4 @@ description = ""
 showVisitedLinks = true
 disableLanguageSwitchingButton = true
 themeVariant = "green"
+disableInlineCopyToClipBoard = true
