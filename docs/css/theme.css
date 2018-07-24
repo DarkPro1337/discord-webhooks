@@ -526,28 +526,28 @@ div.notices.info p {
     background: #FFF2DB;
 }
 div.notices.info p:first-child:after {
-    content: 'Info';
+    content: 'Информация';
 }
 div.notices.warning p {
     border-top: 30px solid rgba(217, 83, 79, 0.8);
     background: #FAE2E2;
 }
 div.notices.warning p:first-child:after {
-    content: 'Warning';
+    content: 'Внимание';
 }
 div.notices.note p {
     border-top: 30px solid #6AB0DE;
     background: #E7F2FA;
 }
 div.notices.note p:first-child:after {
-    content: 'Note';
+    content: 'Заметка';
 }
 div.notices.tip p {
     border-top: 30px solid rgba(92, 184, 92, 0.8);
     background: #E6F9E6;
 }
 div.notices.tip p:first-child:after {
-    content: 'Tip';
+    content: 'Подсказка';
 }
 
 /* attachments shortcode */
