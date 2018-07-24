@@ -12,5 +12,11 @@ author = "DarkPro1337"
 description = ""
 showVisitedLinks = true
 disableLanguageSwitchingButton = true
-themeVariant = "green"
+themeVariant = "mine"
 disableInlineCopyToClipBoard = true
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/DarkPro1337/discord-webhooks"
+weight = 10

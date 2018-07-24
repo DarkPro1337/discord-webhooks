@@ -13,25 +13,25 @@ draft: false
   * [JSON](intro/json)
   * [Структура Вебхуков](intro/discord-webhook)
 * Интеграции с:
-  * [IFTTT](services/ifttt.md)
-  * [IFTTT Platform](services/ifttt-platform.md)
+  * [IFTTT](services/ifttt)
+  * [IFTTT Platform](services/ifttt-platform)
 * Использование с:
-  * [Postman](tools/postman.md)
-  * [HTTPie](tools/httpie.md)
-  * [cURL](tools/curl.md)
+  * [Postman](tools/postman)
+  * [HTTPie](tools/httpie)
+  * [cURL](tools/curl)
 * Примеры:
-  * [Twitch](examples/twitch.md)
-  * [Spotify](examples/spotify.md)
+  * [Twitch](examples/twitch)
+  * [Spotify](examples/spotify)
 * Дополнительная информация
-  * [Discord Markdown](other/discord-markdown.md)
-  * [Slack форматирование](other/slack-formatting.md)
-  * [Ограничения полей](other/field-limits.md)
+  * [Discord Markdown](other/discord-markdown)
+  * [Slack форматирование](other/slack-formatting)
+  * [Ограничения полей](other/field-limits)
 
 ## Ссылки
 
-* [IFTTT](https://ifttt.com/)
-* [Postman](https://www.getpostman.com/)
-* [cURL](https://curl.haxx.se/)
-* [HTTPie](https://httpie.org/)
-* [Zapier](https://zapier.com/)
-* [Integromat](https://www.integromat.com/)
+* [IFTTT <i class="fa fa-external-link"></i>](https://ifttt.com/)
+* [Postman <i class="fa fa-external-link"></i>](https://www.getpostman.com/)
+* [cURL <i class="fa fa-external-link"></i>](https://curl.haxx.se/)
+* [HTTPie <i class="fa fa-external-link"></i>](https://httpie.org/)
+* [Zapier <i class="fa fa-external-link"></i> ](https://zapier.com/)
+* [Integromat <i class="fa fa-external-link"></i>](https://www.integromat.com/)
