@@ -5,7 +5,7 @@ draft: false
 ---
 # Главная
 
-![](../img/discord-webhooks_header_small.png?classes=shadow&&width=50pc)
+![](./img/discord-webhooks_header_small.png?classes=shadow&width=50pc)
 
 ## Содержание
 
