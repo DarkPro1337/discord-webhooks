@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
-    <title>fields :: Discord Webhooks Guide</title>
+    <title>Slack форматирование :: Discord Webhooks Guide</title>
     
     
     <link href="/discord-webhooks/css/nucleus.css?1532646252" rel="stylesheet">
@@ -39,7 +39,7 @@
     
 
   </head>
-  <body class="" data-url="/discord-webhooks/structure/embeds/fields/">
+  <body class="" data-url="/discord-webhooks/other/slack-formatting/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -156,7 +156,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/" title="Структура вебхуков Discord" class="dd-item 
-        parent
+        
         
         
         ">
@@ -242,7 +242,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/embeds/" title="embeds" class="dd-item 
-        parent
+        
         
         
         ">
@@ -363,7 +363,7 @@
  
   
     
-      <li data-nav-id="/discord-webhooks/structure/embeds/fields/" title="fields" class="dd-item active">
+      <li data-nav-id="/discord-webhooks/structure/embeds/fields/" title="fields" class="dd-item ">
         <a href="/discord-webhooks/structure/embeds/fields/">
         fields
         <i class="fa fa-check read-icon"></i>
@@ -748,7 +748,7 @@
   
     
     <li data-nav-id="/discord-webhooks/other/" title="Дополнительная информация" class="dd-item 
-        
+        parent
         
         
         ">
@@ -793,7 +793,7 @@
  
   
     
-      <li data-nav-id="/discord-webhooks/other/slack-formatting/" title="Slack форматирование" class="dd-item ">
+      <li data-nav-id="/discord-webhooks/other/slack-formatting/" title="Slack форматирование" class="dd-item active">
         <a href="/discord-webhooks/other/slack-formatting/">
         Slack форматирование
         <i class="fa fa-check read-icon"></i>
@@ -901,13 +901,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/discord-webhooks/'>Главная</a> > <a href='/discord-webhooks/structure/'>Структура вебхуков Discord</a> > <a href='/discord-webhooks/structure/embeds/'>embeds</a> > fields
-          
-         
+            <a href='/discord-webhooks/'>Главная</a> > <a href='/discord-webhooks/other/'>Дополнительная информация</a> > Slack форматирование
           
          
           
@@ -919,7 +913,21 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#первый-слой">Первый слой</a></li>
+<li><a href="#embeds-attachments">embeds (attachments)</a></li>
+<li><a href="#author">author</a></li>
+<li><a href="#fields">fields</a></li>
+<li><a href="#image">image</a></li>
+<li><a href="#thumbnail">thumbnail</a></li>
+<li><a href="#пример">Пример</a></li>
+<li><a href="#дополнительная-информация">Дополнительная информация</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -931,52 +939,324 @@
         
         <div id="body-inner">
           
-            <h1>fields</h1>
+            <h1>Slack форматирование</h1>
           
 
         
 
 
-<p>Позволяет использовать вместе блоки <code>title</code> + <code>description</code> во вложении к сообщению. <code>fields</code> это массив объекта <code>field</code>.<br />
-Каждый объект будет включать три значения:</p>
 
-<ul>
-<li><code>name</code> - устанавливает имя для объекта поля. Обязателен;</li>
-<li><code>value</code> - устанавливает описание для объекта поля.  Обязателен;</li>
-<li><code>inline</code> - при <code>true</code>  устанавливает поля в одну и ту же линию, <strong>но</strong> если у вас есть больше 3 объектов с включенным <code>inline</code> или просто очень длинные, то вы получите 3 строки с полями в каждом из них, или с 2 полями если вы используете объект <code>thumbnail</code> . По упомолчанию равен <code>false</code> . Опционален.</li>
-</ul>
 
-<div class="notices info" ><p>Вы можете использовать до 25 полей в одном и том же вложении. <code>name</code> и <code>value</code> поддерживают Discord Markdown.</p>
-</div>
+<p>Вебхуки Discord так же поддерживают форматирование <a href="https://slack.com/">Slack</a>. Просто добавьте <code>/slack</code> к URL вебхука, чтобы использовать его.</p>
 
+<h2 id="первый-слой">Первый слой</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>Discord</strong></th>
+<th><strong>Slack</strong></th>
+<th><strong>Комментарий</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>username</td>
+<td>username</td>
+<td></td>
+</tr>
+
+<tr>
+<td>avatar_url</td>
+<td>icon_url</td>
+<td></td>
+</tr>
+
+<tr>
+<td>content</td>
+<td>text</td>
+<td></td>
+</tr>
+
+<tr>
+<td>embeds</td>
+<td>attachments</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="embeds-attachments">embeds (attachments)</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>Discord</strong></th>
+<th><strong>Slack</strong></th>
+<th><strong>Комментарий</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>color</td>
+<td>color</td>
+<td>Поддерживает hex-коды цветов <code>&quot;#4c73c7&quot;</code> и три предустановленных цвета: <code>good</code> (зелёный), <code>warning</code> (жёлтый) и <code>danger</code> (красный).</td>
+</tr>
+
+<tr>
+<td>author</td>
+<td>-</td>
+<td>Блок автора объявляется по разному. Смотрите таблицу <a href="slack-formatting.md#author"><code>author</code></a>.</td>
+</tr>
+
+<tr>
+<td>title</td>
+<td>title</td>
+<td></td>
+</tr>
+
+<tr>
+<td>url</td>
+<td>title_link</td>
+<td></td>
+</tr>
+
+<tr>
+<td>description</td>
+<td>text</td>
+<td></td>
+</tr>
+
+<tr>
+<td>fields</td>
+<td>fields</td>
+<td></td>
+</tr>
+
+<tr>
+<td>image</td>
+<td>-</td>
+<td>Блок картинки объявляется по разному. Смотрите таблицу <a href="slack-formatting.md#image"><code>image</code></a>.</td>
+</tr>
+
+<tr>
+<td>thumbnail</td>
+<td>-</td>
+<td>Блок миниатюры объявляется по разному. Смотрите таблицу <code>thumbnail</code>.</td>
+</tr>
+
+<tr>
+<td>footer</td>
+<td>footer</td>
+<td>Это не блок, смотрите таблицу <a href="slack-formatting.md#footer"><code>footer</code></a>.</td>
+</tr>
+
+<tr>
+<td>timestamp</td>
+<td>ts</td>
+<td>Требует формат времени <a href="https://ru.wikipedia.org/wiki/Unix-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F">Unix-время</a>.</td>
+</tr>
+
+<tr>
+<td>-</td>
+<td>fallback</td>
+<td>Краткое содержание для уведомлений или IRC. Не поддерживает разметку. Не уверен, что Discord поддерживает это.</td>
+</tr>
+
+<tr>
+<td>-</td>
+<td>pretext</td>
+<td>Сломанная шткуа. Должна работать как <code>content</code>, появляясь перед вложением, но оно просто добавляется к <code>description</code>.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="author">author</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>Discord</strong></th>
+<th><strong>Slack</strong></th>
+<th><strong>Комментарий</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>name</td>
+<td>author_name</td>
+<td>Просто напишите его внутри <code>attachments</code>, как <code>color</code> и т.п.</td>
+</tr>
+
+<tr>
+<td>url</td>
+<td>author_link</td>
+<td></td>
+</tr>
+
+<tr>
+<td>icon_url</td>
+<td>author_icon</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="fields">fields</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>Discord</strong></th>
+<th><strong>Slack</strong></th>
+<th><strong>Комментарий</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>name</td>
+<td>title</td>
+<td></td>
+</tr>
+
+<tr>
+<td>value</td>
+<td>value</td>
+<td></td>
+</tr>
+
+<tr>
+<td>inline</td>
+<td>short</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="image">image</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>Discord</strong></th>
+<th><strong>Slack</strong></th>
+<th><strong>Комментарий</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>url</td>
+<td>image_url</td>
+<td>Здесь нету блока <code>image</code>. Просто пишите его внутри <code>attachments</code>, как <code>color</code> и т.п.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="thumbnail">thumbnail</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>Discord</strong></th>
+<th><strong>Slack</strong></th>
+<th><strong>Комментарий</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>url</td>
+<td>thumb_url</td>
+<td>Здесь нету блока <code>thumbnail</code>. Просто пишите его внутри <code>attachments</code>, как <code>color</code> и т.п.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>footer</h2>
+
+<table>
+<thead>
+<tr>
+<th><strong>Discord</strong></th>
+<th><strong>Slack</strong></th>
+<th><strong>Комментарий</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>text</td>
+<td>footer</td>
+<td>Здесь нету блока <code>footer</code>. Просто пишите его внутри <code>attachments</code>, как <code>color</code> и т.п.</td>
+</tr>
+
+<tr>
+<td>icon</td>
+<td>footer_icon</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="пример">Пример</h2>
 
 <pre><code class="language-json">{
-  &quot;embeds&quot;: [{
-    &quot;fields&quot;: [
-      {
-        &quot;name&quot;: &quot;Кошка&quot;,
-        &quot;value&quot;: &quot;Привет! :wave:&quot;,
-        &quot;inline&quot;: true
-      },
-      {
-        &quot;name&quot;: &quot;Собака&quot;,
-        &quot;value&quot;: &quot;Здравствуй!&quot;,
-        &quot;inline&quot;: true
-      },
-      {
-        &quot;name&quot;: &quot;Кошка&quot;,
-        &quot;value&quot;: &quot;хочешь поиграть? заходи ко мне в голосовой канал!&quot;
-      },
-      {
-        &quot;name&quot;: &quot;Собака&quot;,
-        &quot;value&quot;: &quot;yay! :grin:&quot;
-      }
-    ]
-  }]
+  &quot;username&quot;: &quot;Вебхук&quot;,
+  &quot;icon_url&quot;: &quot;https://i.imgur.com/8gzrpIh.png&quot;,
+  &quot;text&quot;: &quot;Текст сообщения. До 2000 символов.&quot;,
+  &quot;attachments&quot;: [
+    {
+      &quot;author_name&quot;: &quot;DOGE&quot;,
+      &quot;author_link&quot;: &quot;https://www.reddit.com/r/doge/&quot;,
+      &quot;author_icon&quot;: &quot;https://i.imgur.com/1PQ1yfi.png&quot;,
+      &quot;title&quot;: &quot;Заголовок&quot;,
+      &quot;title_link&quot;: &quot;https://google.com/&quot;,
+      &quot;text&quot;: &quot;Текст сообщения. Здесь можно использовать Markdown. *Курсив* **жирный** __подчёркнутый__ ~~зачёркнутый~~ [гиперссылка](https://google.com) `код`&quot;,
+      &quot;color&quot;: &quot;#e8d44f&quot;,
+      &quot;fields&quot;: [
+        {
+          &quot;title&quot;: &quot;Тест&quot;,
+          &quot;value&quot;: &quot;Ещё текста&quot;,
+          &quot;short&quot;: true
+        },
+        {
+          &quot;title&quot;: &quot;Нам нужно больше текста&quot;,
+          &quot;value&quot;: &quot;Агась&quot;,
+          &quot;short&quot;: true
+        },
+        {
+          &quot;title&quot;: &quot;Используйте параметр `\&quot;inline\&quot;: true` , если вы хотите чтоб поля распалагались на одной линии.&quot;,
+          &quot;value&quot;: &quot;Ладно...&quot;
+        },
+        {
+          &quot;title&quot;: &quot;Спасибо&quot;,
+          &quot;value&quot;: &quot;Не за что! :wink:&quot;
+        }
+      ],
+      &quot;thumb_url&quot;: &quot;https://i.imgur.com/2p68pbG.jpg&quot;,
+      &quot;image_url&quot;: &quot;https://i.imgur.com/2p68pbG.jpg&quot;,
+      &quot;footer&quot;: &quot;Вау! Как класно! :smirk:&quot;,
+      &quot;footer_icon&quot;: &quot;https://i.imgur.com/AAeBJBp.png&quot;
+    }
+  ]
 }
 </code></pre>
 
-<p><img src="../img/fields.png" alt="" /></p>
+<p><img src="../img/slack-formatting.png" alt="" /></p>
+
+<h2 id="дополнительная-информация">Дополнительная информация</h2>
+
+<ul>
+<li><a href="https://discordapp.com/developers/docs/resources/webhook#execute-slackcompatible-webhook">Выполнение Slack-совместимых вебхуков</a></li>
+<li><a href="https://api.slack.com/incoming-webhooks">Входящие вебхуки</a></li>
+<li><a href="https://api.slack.com/docs/message-formatting">Основы форматирования сообщений</a></li>
+<li><a href="https://api.slack.com/docs/message-attachments">Прикрепление контента и ссылок к сообщению </a></li>
+</ul>
 
 
 <footer class=" footline" >
@@ -1066,7 +1346,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1076,90 +1355,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1222,14 +1417,10 @@
                     
 
                     
-            
-        
-                    
                         
             
             
                 
-                    
                     
                 
                 
@@ -1247,8 +1438,85 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1512,6 +1780,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1525,21 +1794,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -1557,6 +1813,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -1578,10 +1854,10 @@
 
 
         
-            <a class="nav nav-prev" href="/discord-webhooks/structure/embeds/description/" title="description"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/discord-webhooks/other/discord-markdown/" title="Discord Markdown"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/discord-webhooks/structure/embeds/image/" title="image" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/discord-webhooks/other/field-limits/" title="Ограничения полей" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

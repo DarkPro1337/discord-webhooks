@@ -532,6 +532,14 @@ div.notices.warning p {
     border-top: 30px solid rgba(217, 83, 79, 0.8);
     background: #FAE2E2;
 }
+div.notices.warning ul {
+    display: block;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #666;
+    background: #FAE2E2;
+}
 div.notices.warning p:first-child:after {
     content: 'Внимание';
 }

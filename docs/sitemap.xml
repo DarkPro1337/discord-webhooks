@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/other/discord-markdown/</loc>
+    <lastmod>2018-07-27T01:33:50+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://darkpro1337.github.io/discord-webhooks/examples/twitch/</loc>
     <lastmod>2018-07-25T00:33:41+03:00</lastmod>
   </url>
@@ -28,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/other/slack-formatting/</loc>
+    <lastmod>2018-07-27T01:34:11+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://darkpro1337.github.io/discord-webhooks/examples/spotify/</loc>
     <lastmod>2018-07-25T00:33:47+03:00</lastmod>
   </url>
@@ -50,6 +60,11 @@
   <url>
     <loc>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</loc>
     <lastmod>2018-07-23T22:17:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://darkpro1337.github.io/discord-webhooks/other/field-limits/</loc>
+    <lastmod>2018-07-27T01:34:33+03:00</lastmod>
   </url>
   
   <url>

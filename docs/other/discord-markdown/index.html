@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/discord-webhooks/images/favicon.png" type="image/x-icon" />
-    <title>fields :: Discord Webhooks Guide</title>
+    <title>Discord Markdown :: Discord Webhooks Guide</title>
     
     
     <link href="/discord-webhooks/css/nucleus.css?1532646252" rel="stylesheet">
@@ -39,7 +39,7 @@
     
 
   </head>
-  <body class="" data-url="/discord-webhooks/structure/embeds/fields/">
+  <body class="" data-url="/discord-webhooks/other/discord-markdown/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -156,7 +156,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/" title="Структура вебхуков Discord" class="dd-item 
-        parent
+        
         
         
         ">
@@ -242,7 +242,7 @@
   
     
     <li data-nav-id="/discord-webhooks/structure/embeds/" title="embeds" class="dd-item 
-        parent
+        
         
         
         ">
@@ -363,7 +363,7 @@
  
   
     
-      <li data-nav-id="/discord-webhooks/structure/embeds/fields/" title="fields" class="dd-item active">
+      <li data-nav-id="/discord-webhooks/structure/embeds/fields/" title="fields" class="dd-item ">
         <a href="/discord-webhooks/structure/embeds/fields/">
         fields
         <i class="fa fa-check read-icon"></i>
@@ -748,7 +748,7 @@
   
     
     <li data-nav-id="/discord-webhooks/other/" title="Дополнительная информация" class="dd-item 
-        
+        parent
         
         
         ">
@@ -774,7 +774,7 @@
  
   
     
-      <li data-nav-id="/discord-webhooks/other/discord-markdown/" title="Discord Markdown" class="dd-item ">
+      <li data-nav-id="/discord-webhooks/other/discord-markdown/" title="Discord Markdown" class="dd-item active">
         <a href="/discord-webhooks/other/discord-markdown/">
         Discord Markdown
         <i class="fa fa-check read-icon"></i>
@@ -901,13 +901,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/discord-webhooks/'>Главная</a> > <a href='/discord-webhooks/structure/'>Структура вебхуков Discord</a> > <a href='/discord-webhooks/structure/embeds/'>embeds</a> > fields
-          
-         
+            <a href='/discord-webhooks/'>Главная</a> > <a href='/discord-webhooks/other/'>Дополнительная информация</a> > Discord Markdown
           
          
           
@@ -919,7 +913,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#форматирование-текста">Форматирование текста</a></li>
+<li><a href="#discord-теги">Discord теги</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -931,52 +933,61 @@
         
         <div id="body-inner">
           
-            <h1>fields</h1>
+            <h1>Discord Markdown</h1>
           
 
         
 
 
-<p>Позволяет использовать вместе блоки <code>title</code> + <code>description</code> во вложении к сообщению. <code>fields</code> это массив объекта <code>field</code>.<br />
-Каждый объект будет включать три значения:</p>
-
-<ul>
-<li><code>name</code> - устанавливает имя для объекта поля. Обязателен;</li>
-<li><code>value</code> - устанавливает описание для объекта поля.  Обязателен;</li>
-<li><code>inline</code> - при <code>true</code>  устанавливает поля в одну и ту же линию, <strong>но</strong> если у вас есть больше 3 объектов с включенным <code>inline</code> или просто очень длинные, то вы получите 3 строки с полями в каждом из них, или с 2 полями если вы используете объект <code>thumbnail</code> . По упомолчанию равен <code>false</code> . Опционален.</li>
-</ul>
-
-<div class="notices info" ><p>Вы можете использовать до 25 полей в одном и том же вложении. <code>name</code> и <code>value</code> поддерживают Discord Markdown.</p>
-</div>
 
 
-<pre><code class="language-json">{
-  &quot;embeds&quot;: [{
-    &quot;fields&quot;: [
-      {
-        &quot;name&quot;: &quot;Кошка&quot;,
-        &quot;value&quot;: &quot;Привет! :wave:&quot;,
-        &quot;inline&quot;: true
-      },
-      {
-        &quot;name&quot;: &quot;Собака&quot;,
-        &quot;value&quot;: &quot;Здравствуй!&quot;,
-        &quot;inline&quot;: true
-      },
-      {
-        &quot;name&quot;: &quot;Кошка&quot;,
-        &quot;value&quot;: &quot;хочешь поиграть? заходи ко мне в голосовой канал!&quot;
-      },
-      {
-        &quot;name&quot;: &quot;Собака&quot;,
-        &quot;value&quot;: &quot;yay! :grin:&quot;
-      }
-    ]
-  }]
-}
-</code></pre>
+<h2 id="форматирование-текста">Форматирование текста</h2>
 
-<p><img src="../img/fields.png" alt="" /></p>
+<p><img src="../img/discord-markdown_1.png" alt="" /></p>
+
+<h2 id="discord-теги">Discord теги</h2>
+
+<p>Существует два способа:</p>
+
+<ol>
+<li>Использовать режим разработчика.  Перейдите в <strong>Настройки пользователя</strong>  ➡ <strong>Внешний вид</strong>  ➡ <strong>Режим разработчика</strong> и включите его, теперь вы можете найти ID любого пользователя, сообщения, канала или сервера.  <strong>ПКМ  ➡ Копировать ID</strong>.</li>
+<li>Использовать магический бэкслэш  <code>\</code>. Избегайте его написание перед: упомнинанием пользователя, упоминанием роли, тега канала или пользовательских эмодзи или вы получите неотформатированные данные.</li>
+</ol>
+
+<p><img src="../img/discord-markdown_2.png" alt="" /></p>
+
+<p>Стоит упомянуть это где-нибудь, потому что кто-нибудь захочет использовать это в сообщениях.</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Как это пишется</strong></th>
+<th><strong>Как это выглядит</strong></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>`&lt;@&amp;role-id&gt;`</td>
+<td>`@role-name`</td>
+</tr>
+
+<tr>
+<td>`&lt;#channel-id&gt;`</td>
+<td>`#channel-name`</td>
+</tr>
+
+<tr>
+<td>`&lt;@user-id&gt;`</td>
+<td>`@mention`</td>
+</tr>
+
+<tr>
+<td>`&lt;:custom_emoji_name:emoji-id&gt;`</td>
+<td>`:custom_emoji_name:`</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class=" footline" >
@@ -1066,7 +1077,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1076,90 +1086,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1222,14 +1148,10 @@
                     
 
                     
-            
-        
-                    
                         
             
             
                 
-                    
                     
                 
                 
@@ -1247,8 +1169,85 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -1512,6 +1511,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1525,21 +1525,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1557,6 +1542,25 @@
             
                 
                     
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -1578,10 +1582,10 @@
 
 
         
-            <a class="nav nav-prev" href="/discord-webhooks/structure/embeds/description/" title="description"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/discord-webhooks/other/" title="Дополнительная информация"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/discord-webhooks/structure/embeds/image/" title="image" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/discord-webhooks/other/slack-formatting/" title="Slack форматирование" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
