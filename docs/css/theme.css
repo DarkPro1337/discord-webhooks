@@ -540,6 +540,9 @@ div.notices.warning ul {
     color: #666;
     background: #FAE2E2;
 }
+div.notices.warning p:first-child{
+    border-top: 30px solid rgba(217, 83, 79, 0.8);
+}
 div.notices.warning p:first-child:after {
     content: 'Внимание';
 }

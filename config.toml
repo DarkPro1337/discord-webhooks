@@ -1,4 +1,4 @@
-baseURL = "https://darkpro1337.github.io/discord-webhooks/"
+baseURL = "http://localhost:1313"
 languageCode = "en-us"
 title = "Discord Webhooks Guide"
 theme = "hugo-theme-learn"
@@ -16,7 +16,13 @@ themeVariant = "mine"
 disableInlineCopyToClipBoard = true
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-github'></i> Github repo"
+name = "<i class='fa fa-github'></i> Github репо"
 identifier = "ds"
 url = "https://github.com/DarkPro1337/discord-webhooks"
 weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-telegram'></i> Написать автору"
+identifier = "vk"
+url = "https://telegram.me/DarkPro1337"
+weight = 15

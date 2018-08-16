@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сотрудничество on Discord Webhooks Guide</title>
+    <link>http://localhost:1313/contributing/</link>
+    <description>Recent content in Сотрудничество on Discord Webhooks Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Aug 2018 00:44:32 +0300</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/contributing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

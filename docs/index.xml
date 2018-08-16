@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Главная on Discord Webhooks Guide</title>
-    <link>https://darkpro1337.github.io/discord-webhooks/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Главная on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jul 2018 20:12:31 +0300</lastBuildDate>
     
-	<atom:link href="https://darkpro1337.github.io/discord-webhooks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Discord Markdown</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/other/discord-markdown/</link>
+      <link>http://localhost:1313/other/discord-markdown/</link>
       <pubDate>Fri, 27 Jul 2018 01:33:50 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/other/discord-markdown/</guid>
+      <guid>http://localhost:1313/other/discord-markdown/</guid>
       <description>Форматирование текста Discord теги Существует два способа:
  Использовать режим разработчика. Перейдите в Настройки пользователя ➡ Внешний вид ➡ Режим разработчика и включите его, теперь вы можете найти ID любого пользователя, сообщения, канала или сервера. ПКМ ➡ Копировать ID. Использовать магический бэкслэш \. Избегайте его написание перед: упомнинанием пользователя, упоминанием роли, тега канала или пользовательских эмодзи или вы получите неотформатированные данные.  Стоит упомянуть это где-нибудь, потому что кто-нибудь захочет использовать это в сообщениях.</description>
     </item>
     
     <item>
       <title>Twitch</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/examples/twitch/</link>
+      <link>http://localhost:1313/examples/twitch/</link>
       <pubDate>Wed, 25 Jul 2018 00:33:41 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/examples/twitch/</guid>
+      <guid>http://localhost:1313/examples/twitch/</guid>
       <description>Обычная версия if Stream going live for X then Make a web request { &amp;quot;embeds&amp;quot;: [{ &amp;quot;color&amp;quot;: 6570405, &amp;quot;author&amp;quot;:{ &amp;quot;name&amp;quot;:&amp;quot;{{ChannelName}}&amp;quot;, &amp;quot;url&amp;quot;:&amp;quot;{{ChannelUrl}}&amp;quot; }, &amp;quot;description&amp;quot;: &amp;quot;**is now streaming on Twitch**&amp;quot;, &amp;quot;fields&amp;quot;: [ { &amp;quot;name&amp;quot;: &amp;quot;:video_game: Game&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{Game}}&amp;quot;, &amp;quot;inline&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;:eye: Viewers&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{CurrentViewers}}&amp;quot;, &amp;quot;inline&amp;quot;: true } ], &amp;quot;image&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;{{StreamPreview}}&amp;quot; }, &amp;quot;footer&amp;quot;: { &amp;quot;text&amp;quot;: &amp;quot;http://twitch.tv&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://d1qb2nb5cznatu.cloudfront.net/startups/i/114142-19c0993bf69c468f1350fd422bfad6b2-medium_jpg.jpg?buster=1410211530&amp;quot; } }] }  Улучшенная версия if Stream going live for X then Make a web request В 8-ой и 21-ой строках вам нужно будет заменить текст URL AVATAR на ссылку со своим аватаром.</description>
     </item>
     
     <item>
       <title>Postman</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/tools/postman/</link>
+      <link>http://localhost:1313/tools/postman/</link>
       <pubDate>Wed, 25 Jul 2018 00:19:34 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/tools/postman/</guid>
+      <guid>http://localhost:1313/tools/postman/</guid>
       <description>Postman — это очень удобная программа для отправки REST запросов. Вы так же можете использовать его для вебхуков.
 Для начала вам нужно установить Postman. Он доступен для Windows, Linux и MacOS.</description>
     </item>
     
     <item>
       <title>IFTTT</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/services/ifttt/</link>
+      <link>http://localhost:1313/services/ifttt/</link>
       <pubDate>Wed, 25 Jul 2018 00:10:33 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/services/ifttt/</guid>
+      <guid>http://localhost:1313/services/ifttt/</guid>
       <description>IFTTT — это сервис позволяющий соединять сервисы между собой. Он поддерживает вебхуки, поэтому мы можем использовать его с Discord.
 Аккаунт на IFTTT Зайдите на IFTTT и создайте там свой аккаунт (если у вас его нет)
 Вебхуки в Discord  Зайдите в Настройки сервера → Вебхуки → Создать вебхук Укажите имя, установите аватар и канал в который вебхук будет отправлять сообщения. Скопируйте URL Вебхука. Не отправляйте никому эту ссылку! Это очень опасно!</description>
@@ -53,10 +53,10 @@
     
     <item>
       <title>username</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/username/</link>
+      <link>http://localhost:1313/structure/username/</link>
       <pubDate>Mon, 23 Jul 2018 22:59:38 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/username/</guid>
+      <guid>http://localhost:1313/structure/username/</guid>
       <description>Заменяет название вебхука. Полезно, если вы используете одну и ту же ссылку на вебхук.
 Пример:
 { &amp;quot;username&amp;quot;: &amp;quot;Kooh Niatpac&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Привет. Я вебхук, моё оригинальное имя Captain Hook!&amp;quot; }  </description>
@@ -64,10 +64,10 @@
     
     <item>
       <title>JSON</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/intro/json/</link>
+      <link>http://localhost:1313/intro/json/</link>
       <pubDate>Mon, 23 Jul 2018 21:48:52 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/intro/json/</guid>
+      <guid>http://localhost:1313/intro/json/</guid>
       <description>Если вы не знаете ничего о JSON, пожалуйста потратьте немного своего времени, чтобы изучить его структуру.
 Что такое JSON? Аббревиатура JSON расшифровывается как:
  Java Script Object Notation  Не бойтесь. JSON прост в изучении и использовании! И это не язык программирования. JSON — это формат хранения данных, который легко читается и записывается, как людьми, так и роботами.
@@ -76,48 +76,48 @@
     
     <item>
       <title>Slack форматирование</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/other/slack-formatting/</link>
+      <link>http://localhost:1313/other/slack-formatting/</link>
       <pubDate>Fri, 27 Jul 2018 01:34:11 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/other/slack-formatting/</guid>
+      <guid>http://localhost:1313/other/slack-formatting/</guid>
       <description>Вебхуки Discord так же поддерживают форматирование Slack. Просто добавьте /slack к URL вебхука, чтобы использовать его.
 Первый слой    Discord Slack Комментарий     username username    avatar_url icon_url    content text    embeds attachments     embeds (attachments)    Discord Slack Комментарий     color color Поддерживает hex-коды цветов &amp;quot;#4c73c7&amp;quot; и три предустановленных цвета: good (зелёный), warning (жёлтый) и danger (красный).</description>
     </item>
     
     <item>
       <title>Spotify</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/examples/spotify/</link>
+      <link>http://localhost:1313/examples/spotify/</link>
       <pubDate>Wed, 25 Jul 2018 00:33:47 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/examples/spotify/</guid>
+      <guid>http://localhost:1313/examples/spotify/</guid>
       <description> if New saved track then Make a web request { &amp;quot;embeds&amp;quot;: [{ &amp;quot;color&amp;quot;: 2021216, &amp;quot;title&amp;quot;: &amp;quot;New song added!&amp;quot;, &amp;quot;thumbnail&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;{{AlbumCoverURL}}&amp;quot; }, &amp;quot;fields&amp;quot;:[ { &amp;quot;name&amp;quot;: &amp;quot;Track&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;[{{TrackName}}]({{TrackURL}})&amp;quot;, &amp;quot;inline&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;Artist&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{ArtistName}}&amp;quot;, &amp;quot;inline&amp;quot;: true }, { &amp;quot;name&amp;quot;: &amp;quot;Album&amp;quot;, &amp;quot;value&amp;quot;: &amp;quot;{{AlbumName}}&amp;quot;, &amp;quot;inline&amp;quot;: true } ], &amp;quot;footer&amp;quot;: { &amp;quot;text&amp;quot;: &amp;quot;Added {{SavedAt}}&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/200px-Spotify_logo_without_text.svg.png&amp;quot; } }] }  </description>
     </item>
     
     <item>
       <title>HTTPie</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/tools/httpie/</link>
+      <link>http://localhost:1313/tools/httpie/</link>
       <pubDate>Wed, 25 Jul 2018 00:20:03 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/tools/httpie/</guid>
+      <guid>http://localhost:1313/tools/httpie/</guid>
       <description>HTTPie - это консольный HTTP клиент, похожий на cURL, но более дружелюбен к пользователю. Информацию о том, как установить его можно найти здесь.
  Пользователи Linux могут установить его через свой менеджер пакетов, macOS - через Homebrew или MacPorts, Windows - через pip (требует Python 2.x/3.x).  Использование # -j или --json параметр используется по умолчанию, поэтому его можно пропустить # GET метод по умолчанию, но когда вы добавляете какие-либо данные, он переключится на POST # так что его тоже можно пропустить.</description>
     </item>
     
     <item>
       <title>IFTTT Platform</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/services/ifttt-platform/</link>
+      <link>http://localhost:1313/services/ifttt-platform/</link>
       <pubDate>Wed, 25 Jul 2018 00:13:07 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/services/ifttt-platform/</guid>
+      <guid>http://localhost:1313/services/ifttt-platform/</guid>
       <description> 🚧 Work in progress 🚧 </description>
     </item>
     
     <item>
       <title>avatar_url</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/avatar_url/</link>
+      <link>http://localhost:1313/structure/avatar_url/</link>
       <pubDate>Mon, 23 Jul 2018 22:59:42 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/avatar_url/</guid>
+      <guid>http://localhost:1313/structure/avatar_url/</guid>
       <description>Заменяет аватарку вебхука. Полезно, если вы используете одну и ту же ссылку на вебхук.
 Пример:
 { &amp;quot;avatar_url&amp;quot;: &amp;quot;https://i.imgur.com/k1ibITc.jpg&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Я Офицер KD6-3.7&amp;quot; }  </description>
@@ -125,29 +125,29 @@
     
     <item>
       <title>Discord Webhook</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</link>
+      <link>http://localhost:1313/intro/discord-webhook/</link>
       <pubDate>Mon, 23 Jul 2018 22:17:15 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</guid>
+      <guid>http://localhost:1313/intro/discord-webhook/</guid>
       <description>Структура Вебхуков Прежде чем использовать Вебхуки вы должны знать структуру. Все ниже перечисленные элементы необязательны, но вам всё равно придётся использовать content и embeds хотя бы раз. Это минимальное требование.
  username - заменяет имя вебхука avatar_url - заменяет аватар вебхука content - устанавливает текст выводимый вебхуком (до 2000 символов) embeds - массив вложенных объектов в сообщении. Это означает, что вы можете указать туда более одного объекта в одном сообщении  color - устанавливает цвет для полоски вложения.</description>
     </item>
     
     <item>
       <title>Ограничения полей</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/other/field-limits/</link>
+      <link>http://localhost:1313/other/field-limits/</link>
       <pubDate>Fri, 27 Jul 2018 01:34:33 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/other/field-limits/</guid>
+      <guid>http://localhost:1313/other/field-limits/</guid>
       <description>Поле Ограничение     username 2-32 символов   content 2000 символов   embeds 10 объектов   file 10 файлов   title 256 символов   description 2048 символов   author[name] 256 символов   fields 25 объектов   field[name] 256 символов   field[value] 1024 символов   footer[text] 2048 символов   сумма всех символов во вложении 6000 символов    Справка по документации Discord API</description>
     </item>
     
     <item>
       <title>cURL</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/tools/curl/</link>
+      <link>http://localhost:1313/tools/curl/</link>
       <pubDate>Wed, 25 Jul 2018 00:19:44 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/tools/curl/</guid>
+      <guid>http://localhost:1313/tools/curl/</guid>
       <description>cURL - это консольная утилита и библиотека для передачи данных через URL. Доступна для большинства платформ.
  Linux - устанавливается через менеджер пакетов. macOS - homebrew или MacPorts Windows - скачать файл и распаковать его в директорию, и добавить её в PATH.  Использование curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &amp;lt;body&amp;gt; &amp;lt;link&amp;gt;
 curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp;quot;username&amp;quot;: &amp;quot;Тест&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Привет!&amp;quot;}&#39; https://discordapp.com/api/webhooks/203019812404264973/rptBmYgoehu70kw2rItSlhRqKi7kMJh1bM2KCUUD2vR6grZckvtdl62h4xR7XWUS5463 # -H &amp;quot;Content-Type: application/json&amp;quot; - загаловок которые сообщает серверу, что вы отправляете JSON данные # -X POST - использовать метод POST # -d &#39;{&amp;quot;username&amp;quot;: &amp;quot;Тест&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Привет!</description>
@@ -155,10 +155,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>content</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/content/</link>
+      <link>http://localhost:1313/structure/content/</link>
       <pubDate>Tue, 24 Jul 2018 19:19:30 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/content/</guid>
+      <guid>http://localhost:1313/structure/content/</guid>
       <description>Устанавливает текст который будет выводится вебхуком.
 Пример:
 { &amp;quot;content&amp;quot;: &amp;quot;(╯°□°）╯︵ ┻━┻&amp;quot; }  </description>
@@ -166,10 +166,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>tts</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/tts/</link>
+      <link>http://localhost:1313/structure/tts/</link>
       <pubDate>Tue, 24 Jul 2018 20:30:55 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/tts/</guid>
+      <guid>http://localhost:1313/structure/tts/</guid>
       <description>Включает синтезатор речи для текущего сообщения, поэтому каждый у кого включен синтезатор речи услышат это сообщение.
 Пример:
 { &amp;quot;content&amp;quot;: &amp;quot;Привет&amp;quot;, &amp;quot;tts&amp;quot;: true }  </description>
@@ -177,10 +177,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>file</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/file/</link>
+      <link>http://localhost:1313/structure/file/</link>
       <pubDate>Tue, 24 Jul 2018 20:30:59 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/file/</guid>
+      <guid>http://localhost:1313/structure/file/</guid>
       <description> Отправление файлов через вебхук совместима только с заголовком Content-Type: multipart/form-data. Вы можете отправить до 10 файлов в одном запросе. Заметьте, что вы не можете отправлять вложенные параметры используя форму типа embeds. Вместо этого вложите для JSON сообщения параметр payload_json.
 Не забудьте указать уникальные имена для названий изображений. В противном случае будет отправлен только один файл с одинаковыми именами.
 Пример </description>
@@ -188,10 +188,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>color</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/color/</link>
+      <link>http://localhost:1313/structure/embeds/color/</link>
       <pubDate>Tue, 24 Jul 2018 19:31:27 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/color/</guid>
+      <guid>http://localhost:1313/structure/embeds/color/</guid>
       <description>Устанавливает цвет для полоски вложения. По упомолчанию значение равняется 0 (прозрачный). Цвет устанавливается номером, вместо HEX-кода цвета, поэтому вам нужно конвертировать код цвета из шестнадцатеричной в десятичную систему счисления. Цвет может быть указан как номер 32768 или как строковое значение &amp;quot;14177041&amp;quot;.
 Я рекомендую использовать SpyColor для выбора цвета, он показывает десятичное значение.
 Пример:
@@ -200,10 +200,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>author</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/author/</link>
+      <link>http://localhost:1313/structure/embeds/author/</link>
       <pubDate>Tue, 24 Jul 2018 19:38:49 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/author/</guid>
+      <guid>http://localhost:1313/structure/embeds/author/</guid>
       <description>Добавляет блок автора во вложение. author это объект который включает в себя три значения:
  name - устанавливает имя. url - устанавливает ссылку. Требует значения name. Если используется, преобразует name в гиперссылку. icon_url - устанавливает аватар. Требует значения name.  Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;author&amp;quot;: { &amp;quot;name&amp;quot;: &amp;quot;Доставщик пиццы 🍕&amp;quot;, &amp;quot;url&amp;quot;: &amp;quot;https://www.reddit.com/r/Pizza/&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://i.imgur.com/1aErQKa.png&amp;quot; }, &amp;quot;description&amp;quot;: &amp;quot;Ваша пицца готова!\n:timer:ETA: 5 минут.&amp;quot; }] }  </description>
@@ -211,10 +211,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>title</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/title/</link>
+      <link>http://localhost:1313/structure/embeds/title/</link>
       <pubDate>Tue, 24 Jul 2018 19:51:44 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/title/</guid>
+      <guid>http://localhost:1313/structure/embeds/title/</guid>
       <description>Устанавливает заголовок вложения в сообщении.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;title&amp;quot;: &amp;quot;Мяу!&amp;quot; }] }  </description>
@@ -222,20 +222,20 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>url</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/url/</link>
+      <link>http://localhost:1313/structure/embeds/url/</link>
       <pubDate>Tue, 24 Jul 2018 19:55:48 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/url/</guid>
+      <guid>http://localhost:1313/structure/embeds/url/</guid>
       <description>Устанавливает ссылку в заголовок вложения в сообщении. Требует переменную title и превращает её в гиперссылку.
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;title&amp;quot;: &amp;quot;Google it!&amp;quot;, &amp;quot;url&amp;quot;: &amp;quot;https://google.com&amp;quot; }] }  </description>
     </item>
     
     <item>
       <title>description</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/description/</link>
+      <link>http://localhost:1313/structure/embeds/description/</link>
       <pubDate>Tue, 24 Jul 2018 19:58:36 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/description/</guid>
+      <guid>http://localhost:1313/structure/embeds/description/</guid>
       <description>Устанавливает описание вложения в сообщении.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;description&amp;quot;: &amp;quot;*Привет!* **Вау!!** Здесь я могу __использовать__ [гиперссылки](https://discordapp.com).&amp;quot; }] }  </description>
@@ -243,10 +243,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>fields</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/fields/</link>
+      <link>http://localhost:1313/structure/embeds/fields/</link>
       <pubDate>Tue, 24 Jul 2018 20:02:32 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/fields/</guid>
+      <guid>http://localhost:1313/structure/embeds/fields/</guid>
       <description>Позволяет использовать вместе блоки title + description во вложении к сообщению. fields это массив объекта field.
 Каждый объект будет включать три значения:
  name - устанавливает имя для объекта поля. Обязателен; value - устанавливает описание для объекта поля. Обязателен; inline - при true устанавливает поля в одну и ту же линию, но если у вас есть больше 3 объектов с включенным inline или просто очень длинные, то вы получите 3 строки с полями в каждом из них, или с 2 полями если вы используете объект thumbnail .</description>
@@ -254,10 +254,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>image</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/image/</link>
+      <link>http://localhost:1313/structure/embeds/image/</link>
       <pubDate>Tue, 24 Jul 2018 20:08:41 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/image/</guid>
+      <guid>http://localhost:1313/structure/embeds/image/</guid>
       <description>Позволяет вам использовать изображение во вложении к сообщению. Вы можете установить только ссылку на изображение. Вы не можете указать ширину/высоту изображения.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;image&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;https://i.imgur.com/2p68pbG.jpg&amp;quot; } }] }  </description>
@@ -265,10 +265,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>thumbnail</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/thumbnail/</link>
+      <link>http://localhost:1313/structure/embeds/thumbnail/</link>
       <pubDate>Tue, 24 Jul 2018 20:15:13 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/thumbnail/</guid>
+      <guid>http://localhost:1313/structure/embeds/thumbnail/</guid>
       <description>Позволяет вам использовать миниатюрное изображение во вложении к сообщению. Вы можете установить только ссылку на изображение. Вы не можете указать ширину/высоту изображения.
 Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;thumbnail&amp;quot;: { &amp;quot;url&amp;quot;: &amp;quot;https://i.imgur.com/2p68pbG.jpg&amp;quot; } }] }  </description>
@@ -276,10 +276,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>footer</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/footer/</link>
+      <link>http://localhost:1313/structure/embeds/footer/</link>
       <pubDate>Tue, 24 Jul 2018 20:15:30 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/footer/</guid>
+      <guid>http://localhost:1313/structure/embeds/footer/</guid>
       <description>Позволяет вам добавить &amp;ldquo;подвал&amp;rdquo; во вложение сообщения. footer это объект который включает два значения:
  text - устанавливает имя для автора объекта. Markdown здесь не работает! icon_url - устанавливает иконку для автора объекта. Требует значение text.  Пример:
 { &amp;quot;embeds&amp;quot;: [{ &amp;quot;footer&amp;quot;: { &amp;quot;text&amp;quot;: &amp;quot;wow! *such markdown* :smirk:&amp;quot;, &amp;quot;icon_url&amp;quot;: &amp;quot;https://i.imgur.com/1PQ1yfi.png&amp;quot; }, &amp;quot;description&amp;quot;: &amp;quot;Ваша пицца готова!\n:timer:ETA: 10 минут.&amp;quot; }] }  </description>
@@ -287,10 +287,10 @@ curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp
     
     <item>
       <title>timestamp</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/structure/embeds/timestamp/</link>
+      <link>http://localhost:1313/structure/embeds/timestamp/</link>
       <pubDate>Tue, 24 Jul 2018 20:15:50 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/structure/embeds/timestamp/</guid>
+      <guid>http://localhost:1313/structure/embeds/timestamp/</guid>
       <description>Позволяет вам добовлять timestamp во вложение к сообщению. Время хранится как строка в следующем фомате: &amp;quot;YYYY-MM-DDTHH:MM:SS.MSSZ&amp;quot; . Если footer был использован то он будет разделён маркером ( • ). Так же, это особое поле, поскольку оно может выводить разное время основываясь на устройстве пользователя.
 timestamp это не просто текст. Это преобразованный UTC формат даты и времени. Он отображает разное время из-за часовых поясов. Посмотрите пример ниже: Я поставил 12pm но он показывает 3pm из-за часового пояса UTC+3.</description>
     </item>
