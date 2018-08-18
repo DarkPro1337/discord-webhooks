@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Дополнительная информация on Discord Webhooks Guide</title>
-    <link>http://localhost:1313/other/</link>
+    <link>https://darkpro1337.github.io/discord-webhooks/other/</link>
     <description>Recent content in Дополнительная информация on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jul 2018 00:04:42 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/other/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://darkpro1337.github.io/discord-webhooks/other/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Discord Markdown</title>
-      <link>http://localhost:1313/other/discord-markdown/</link>
+      <link>https://darkpro1337.github.io/discord-webhooks/other/discord-markdown/</link>
       <pubDate>Fri, 27 Jul 2018 01:33:50 +0300</pubDate>
       
-      <guid>http://localhost:1313/other/discord-markdown/</guid>
+      <guid>https://darkpro1337.github.io/discord-webhooks/other/discord-markdown/</guid>
       <description>Форматирование текста Discord теги Существует два способа:
  Использовать режим разработчика. Перейдите в Настройки пользователя ➡ Внешний вид ➡ Режим разработчика и включите его, теперь вы можете найти ID любого пользователя, сообщения, канала или сервера. ПКМ ➡ Копировать ID. Использовать магический бэкслэш \. Избегайте его написание перед: упомнинанием пользователя, упоминанием роли, тега канала или пользовательских эмодзи или вы получите неотформатированные данные.  Стоит упомянуть это где-нибудь, потому что кто-нибудь захочет использовать это в сообщениях.</description>
     </item>
     
     <item>
       <title>Slack форматирование</title>
-      <link>http://localhost:1313/other/slack-formatting/</link>
+      <link>https://darkpro1337.github.io/discord-webhooks/other/slack-formatting/</link>
       <pubDate>Fri, 27 Jul 2018 01:34:11 +0300</pubDate>
       
-      <guid>http://localhost:1313/other/slack-formatting/</guid>
+      <guid>https://darkpro1337.github.io/discord-webhooks/other/slack-formatting/</guid>
       <description>Вебхуки Discord так же поддерживают форматирование Slack. Просто добавьте /slack к URL вебхука, чтобы использовать его.
 Первый слой    Discord Slack Комментарий     username username    avatar_url icon_url    content text    embeds attachments     embeds (attachments)    Discord Slack Комментарий     color color Поддерживает hex-коды цветов &amp;quot;#4c73c7&amp;quot; и три предустановленных цвета: good (зелёный), warning (жёлтый) и danger (красный).</description>
     </item>
     
     <item>
       <title>Ограничения полей</title>
-      <link>http://localhost:1313/other/field-limits/</link>
+      <link>https://darkpro1337.github.io/discord-webhooks/other/field-limits/</link>
       <pubDate>Fri, 27 Jul 2018 01:34:33 +0300</pubDate>
       
-      <guid>http://localhost:1313/other/field-limits/</guid>
+      <guid>https://darkpro1337.github.io/discord-webhooks/other/field-limits/</guid>
       <description>Поле Ограничение     username 2-32 символов   content 2000 символов   embeds 10 объектов   file 10 файлов   title 256 символов   description 2048 символов   author[name] 256 символов   fields 25 объектов   field[name] 256 символов   field[value] 1024 символов   footer[text] 2048 символов   сумма всех символов во вложении 6000 символов     Справка по документации Discord API</description>
     </item>
     
