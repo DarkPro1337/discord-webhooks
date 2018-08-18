@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Эпилог on Discord Webhooks Guide</title>
-    <link>https://darkpro1337.github.io/discord-webhooks/epilogue/</link>
+    <link>http://localhost:1313/epilogue/</link>
     <description>Recent content in Эпилог on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Aug 2018 00:39:55 +0300</lastBuildDate>
     
-	<atom:link href="https://darkpro1337.github.io/discord-webhooks/epilogue/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/epilogue/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

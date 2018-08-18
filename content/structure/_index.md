@@ -26,6 +26,6 @@ pre: "<b>2. </b>"
   * [`image`](../../structure/embeds/image) - добавляет изображение во вложение
       * `url` - ссылка на изображение
   * [`footer`](../../structure/embeds/footer) - добавляет "подвал" \(нижний блок\) во вложение
-      * `text` - текст нижнего блока, не поддерживает [Markdown](../../other/discord-markdown#форматирование-текста)
+      * `text` - текст нижнего блока, не поддерживает [<i class="fab fa-markdown"></i> Markdown](../../other/discord-markdown#форматирование-текста)
       * `icon_url` - ссылка на иконку нижнего блока
   * `timestamp` - отметка времени по стандарту [ISO8601](https://ru.wikipedia.org/wiki/ISO_8601) \(`yyyy-mm-ddThh:mm:ss.msZ`\)

@@ -86,7 +86,7 @@ draft: false
 
 ![](../img/twitch-ifttt_1.png)
 
-## Версия для [IFTTT Platform](../services/ifttt-platform.md)
+## Версия для [IFTTT Platform](../../services/ifttt-platform)
 
 #### if `Stream going live for X` filter `Filter code` then `Make a web request` {#if-stream-going-live-for-x-then-make-a-web-request-1}
 

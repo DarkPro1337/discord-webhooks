@@ -19,4 +19,4 @@ draft: false
 | footer\[text\] | 2048 символов |
 | сумма всех символов во вложении | 6000 символов |
 
-[Справка по документации Discord API](https://discordapp.com/developers/docs/resources/channel#embed-limits)
+[<i class="fab fa-discord"></i> Справка по документации Discord API](https://discordapp.com/developers/docs/resources/channel#embed-limits)

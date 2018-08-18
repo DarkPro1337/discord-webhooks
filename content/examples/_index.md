@@ -5,5 +5,5 @@ draft: false
 weight: 35
 pre: "<b>5. </b>"
 ---
-# [<i class="fa fa-twitch" aria-hidden="true"></i> Twitch](./twitch)
-# [<i class="fa fa-spotify" aria-hidden="true"></i> Spotify](./spotify)
+# [<i class="fab fa-twitch" aria-hidden="true"></i> Twitch](./twitch)
+# [<i class="fab fa-spotify" aria-hidden="true"></i> Spotify](./spotify)

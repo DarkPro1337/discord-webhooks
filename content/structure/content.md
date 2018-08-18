@@ -8,7 +8,7 @@ weight: 15
 
 Пример:
 
-```javascript
+```json
 {
   "content": "(╯°□°）╯︵ ┻━┻"
 }

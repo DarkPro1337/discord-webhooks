@@ -15,7 +15,6 @@
 .button:active, .button-secondary:active {
     margin: 2px 0 -2px 0;
 }
-/* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -477,7 +476,7 @@ h2, h3, h4, h5, h6 {
     letter-spacing: -1px;
 }
 h1 {
-    font-family: "Novacento Sans Wide", "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Work Sans", "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     text-align: center;
     color: #222;
     font-weight: 200;
@@ -511,8 +510,9 @@ div.notices p:first-child:before {
     position: absolute;
     top: 2px;
     color: #fff;
-    font-family: FontAwesome;
-    content: '';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f06a";
     left: 10px;
 }
 div.notices p:first-child:after {
@@ -526,7 +526,7 @@ div.notices.info p {
     background: #FFF2DB;
 }
 div.notices.info p:first-child:after {
-    content: 'Информация';
+    content: 'Info';
 }
 div.notices.warning p {
     border-top: 30px solid rgba(217, 83, 79, 0.8);
@@ -539,9 +539,6 @@ div.notices.warning ul {
     margin-bottom: 0rem;
     color: #666;
     background: #FAE2E2;
-}
-div.notices.warning p:first-child{
-    border-top: 30px solid rgba(217, 83, 79, 0.8);
 }
 div.notices.warning p:first-child:after {
     content: 'Внимание';

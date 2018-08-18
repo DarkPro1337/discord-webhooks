@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Использовать с on Discord Webhooks Guide</title>
-    <link>https://darkpro1337.github.io/discord-webhooks/tools/</link>
+    <link>http://localhost:1313/tools/</link>
     <description>Recent content in Использовать с on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jul 2018 00:05:01 +0300</lastBuildDate>
     
-	<atom:link href="https://darkpro1337.github.io/discord-webhooks/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Postman</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/tools/postman/</link>
+      <link>http://localhost:1313/tools/postman/</link>
       <pubDate>Wed, 25 Jul 2018 00:19:34 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/tools/postman/</guid>
+      <guid>http://localhost:1313/tools/postman/</guid>
       <description>Postman — это очень удобная программа для отправки REST запросов. Вы так же можете использовать его для вебхуков.
 Для начала вам нужно установить Postman. Он доступен для Windows, Linux и MacOS.</description>
     </item>
     
     <item>
       <title>HTTPie</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/tools/httpie/</link>
+      <link>http://localhost:1313/tools/httpie/</link>
       <pubDate>Wed, 25 Jul 2018 00:20:03 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/tools/httpie/</guid>
+      <guid>http://localhost:1313/tools/httpie/</guid>
       <description>HTTPie - это консольный HTTP клиент, похожий на cURL, но более дружелюбен к пользователю. Информацию о том, как установить его можно найти здесь.
  Пользователи Linux могут установить его через свой менеджер пакетов, macOS - через Homebrew или MacPorts, Windows - через pip (требует Python 2.x/3.x).  Использование # -j или --json параметр используется по умолчанию, поэтому его можно пропустить # GET метод по умолчанию, но когда вы добавляете какие-либо данные, он переключится на POST # так что его тоже можно пропустить.</description>
     </item>
     
     <item>
       <title>cURL</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/tools/curl/</link>
+      <link>http://localhost:1313/tools/curl/</link>
       <pubDate>Wed, 25 Jul 2018 00:19:44 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/tools/curl/</guid>
+      <guid>http://localhost:1313/tools/curl/</guid>
       <description>cURL - это консольная утилита и библиотека для передачи данных через URL. Доступна для большинства платформ.
  Linux - устанавливается через менеджер пакетов. macOS - homebrew или MacPorts Windows - скачать файл и распаковать его в директорию, и добавить её в PATH.  Использование curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &amp;lt;body&amp;gt; &amp;lt;link&amp;gt;
 curl -H &amp;quot;Content-Type: application/json&amp;quot; -X POST -d &#39;{&amp;quot;username&amp;quot;: &amp;quot;Тест&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Привет!&amp;quot;}&#39; https://discordapp.com/api/webhooks/203019812404264973/rptBmYgoehu70kw2rItSlhRqKi7kMJh1bM2KCUUD2vR6grZckvtdl62h4xR7XWUS5463 # -H &amp;quot;Content-Type: application/json&amp;quot; - загаловок которые сообщает серверу, что вы отправляете JSON данные # -X POST - использовать метод POST # -d &#39;{&amp;quot;username&amp;quot;: &amp;quot;Тест&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Привет!</description>

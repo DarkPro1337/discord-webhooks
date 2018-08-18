@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Введение on Discord Webhooks Guide</title>
-    <link>https://darkpro1337.github.io/discord-webhooks/intro/</link>
+    <link>http://localhost:1313/intro/</link>
     <description>Recent content in Введение on Discord Webhooks Guide</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jul 2018 22:06:45 +0300</lastBuildDate>
     
-	<atom:link href="https://darkpro1337.github.io/discord-webhooks/intro/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/intro/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JSON</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/intro/json/</link>
+      <link>http://localhost:1313/intro/json/</link>
       <pubDate>Mon, 23 Jul 2018 21:48:52 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/intro/json/</guid>
+      <guid>http://localhost:1313/intro/json/</guid>
       <description>Если вы не знаете ничего о JSON, пожалуйста потратьте немного своего времени, чтобы изучить его структуру.
 Что такое JSON? Аббревиатура JSON расшифровывается как:
  Java Script Object Notation  Не бойтесь. JSON прост в изучении и использовании! И это не язык программирования. JSON — это формат хранения данных, который легко читается и записывается, как людьми, так и роботами.
- key: value - это пара ключ-значение Ключ и значение разделяются двоеточием (:), без исключений.</description>
+  key: value - это пара ключ-значение Ключ и значение разделяются двоеточием (:), без исключений.</description>
     </item>
     
     <item>
       <title>Discord Webhook</title>
-      <link>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</link>
+      <link>http://localhost:1313/intro/discord-webhook/</link>
       <pubDate>Mon, 23 Jul 2018 22:17:15 +0300</pubDate>
       
-      <guid>https://darkpro1337.github.io/discord-webhooks/intro/discord-webhook/</guid>
+      <guid>http://localhost:1313/intro/discord-webhook/</guid>
       <description>Структура Вебхуков Прежде чем использовать Вебхуки вы должны знать структуру. Все ниже перечисленные элементы необязательны, но вам всё равно придётся использовать content и embeds хотя бы раз. Это минимальное требование.
  username - заменяет имя вебхука avatar_url - заменяет аватар вебхука content - устанавливает текст выводимый вебхуком (до 2000 символов) embeds - массив вложенных объектов в сообщении. Это означает, что вы можете указать туда более одного объекта в одном сообщении  color - устанавливает цвет для полоски вложения.</description>
     </item>
