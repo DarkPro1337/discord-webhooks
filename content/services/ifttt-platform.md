@@ -9,7 +9,7 @@ draft: false
 * [Учебник Javascript](https://learnxinyminutes.com/docs/ru-ru/javascript-ru/)
 * [Учебник Typescript](https://learnxinyminutes.com/docs/ru-ru/typescript-ru/)
 
-```typescript hljs
+```typescript
 // Каждый элемент данных триггера является строкой и доступен только для чтения, без исключений.
 // Вместо того, чтобы писать `Twitter.newTweetByYou` и т.д. каждый раз вы можете сократить
 // его до `Trigger` потому что апплет может иметь только один триггер на данный момент.
