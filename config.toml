@@ -17,6 +17,12 @@ themeVariant = "mine"
 disableInlineCopyToClipBoard = true
 
 [[menu.shortcuts]]
+name = "<i class='fas fa-home'></i> Домой"
+identifier = "hm"
+url = "https://darkpro1337.github.io"
+weight = 1
+
+[[menu.shortcuts]]
 name = "<i class='fas fa-bookmark'></i> Оригинал"
 identifier = "og"
 url = "https://birdie0.github.io/discord-webhooks-guide/"
