@@ -1,9 +1,11 @@
-baseURL = "https://darkpro1337.github.io/discord-webhooks/"
+baseURL = "https://darkpro1337.github.io/godot-recipes/"
 languageCode = "en-us"
-title = "Discord Webhooks Guide"
+title = "Godot Рецепты"
 theme = "hugo-theme-learn"
 publishDir = "docs"
 enableRobotsTXT = true
+pygmentsStyle = "dracula"
+pygmentsCodeFences = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -11,7 +13,7 @@ home = [ "HTML", "RSS", "JSON"]
 [params]
 author = "DarkPro1337"
 description = ""
-showVisitedLinks = true
+showVisitedLinks = false
 disableLanguageSwitchingButton = true
 themeVariant = "mine"
 disableInlineCopyToClipBoard = true
@@ -25,17 +27,23 @@ weight = 1
 [[menu.shortcuts]]
 name = "<i class='fas fa-bookmark'></i> Оригинал"
 identifier = "og"
-url = "https://birdie0.github.io/discord-webhooks-guide/"
+url = "http://kidscancode.org/godot_recipes/"
 weight = 5
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-patreon'></i> Поддержать автора оригинала"
+identifier = "pt"
+url = "https://www.patreon.com/kidscancode"
+weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github репо"
 identifier = "ds"
-url = "https://github.com/DarkPro1337/discord-webhooks"
-weight = 10
+url = "https://github.com/DarkPro1337/godot-recipes"
+weight = 15
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-telegram-plane'></i> Написать автору"
 identifier = "tg"
 url = "https://telegram.me/DarkPro1337"
-weight = 15
+weight = 20
